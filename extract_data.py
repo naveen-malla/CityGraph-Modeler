@@ -11,14 +11,15 @@ def get_street_network(city, folder_path):
     edges_df.to_csv(file_name, index=False)
 
     return edges_df.columns
+# Folder path where the CSV files will be saved
+folder_path = '/Users/0s/Downloads/RCS/Code/CityGraph-Modeler/' # Replace with your desired folder path
+os.makedirs(folder_path, exist_ok=True)
 
 # Read city names from the file
 with open('cities.txt', 'r') as file:
     cities = file.read().splitlines()
 
-# Folder path where the CSV files will be saved
-folder_path = 'files/' # Replace with your desired folder path
-os.makedirs(folder_path, exist_ok=True)
+
 
 # Set to collect all unique column names
 all_columns = set()
@@ -63,4 +64,4 @@ area: Specifies if the way forms an area.
 bridge: Indicates if the way is a bridge.
 ref: Reference codes or numbers associated with the way.
 reversed: Indicates if the direction of the way is reversed in the data.
-'''
+'''#sdnks
