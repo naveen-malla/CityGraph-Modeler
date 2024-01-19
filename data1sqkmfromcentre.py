@@ -1,7 +1,7 @@
 import osmnx as ox
-import networkx as nx
+import pandas as pd
 
-def extract_street_network(city_center, distance_km):
+def extract_street_network(city_center, distance_km, city_name):
     """
     Extracts the street network within a square of 'distance_km' kilometers
     from the 'city_center'.
@@ -12,14 +12,18 @@ def extract_street_network(city_center, distance_km):
     # Extract nodes and edges
     nodes, edges = ox.graph_to_gdfs(G)
 
-    return nodes, edges
+    # Save to files
+    nodes.to_csv(f"{city_name}_nodes.csv")
+    edges.to_csv(f"{city_name}_edges.csv")
 
-# Example usage
-city_center = (49.7596, 6.6439)  # Replace with the latitude and longitude of the city center
-distance_km = 1  # 1 square km from the center
+# Read the city coordinates from the text file
+with open("./city_coordinates.txt", "r") as file:
+    for line in file:
+        parts = line.split(":")
+        city_name = parts[0].strip()
+        coords = parts[1].strip().strip("()").split(",")
+        latitude = float(coords[0].strip())
+        longitude = float(coords[1].strip())
 
-nodes, edges = extract_street_network(city_center, distance_km)
-
-# You can now work with 'nodes' and 'edges' DataFrames
-print(nodes.head())
-print(edges.head())
+        # Extract and save street network for each city
+        extract_street_network((latitude, longitude), 1, city_name)
