@@ -1,29 +1,51 @@
 import osmnx as ox
 import pandas as pd
+import os
 
-def extract_street_network(city_center, distance_km, city_name):
-    """
-    Extracts the street network within a square of 'distance_km' kilometers
-    from the 'city_center'.
-    """
-    # Get the network graph
-    G = ox.graph_from_point(city_center, dist=distance_km*1000, network_type='drive')
+def get_city_center(city):
+    """Get the center coordinates of a city."""
+    return ox.geocode(city)
 
-    # Extract nodes and edges
-    nodes, edges = ox.graph_to_gdfs(G)
+def get_street_network(city, folder_path):
+    city_center = get_city_center(city)
+    # Define the distance in meters for approximately 1 square km area
+    distance = 500  # 500 meters radius approximates 1 square km area
 
-    # Save to files
-    nodes.to_csv(f"{city_name}_nodes.csv")
-    edges.to_csv(f"{city_name}_edges.csv")
+    # Get the network graph around the city center
+    graph = ox.graph_from_point(city_center, dist=distance, network_type="drive")
+    edges_df = ox.graph_to_gdfs(graph, nodes=False)
+    
+    # Save to CSV in the specified folder with city name as filename
+    file_name = os.path.join(folder_path, f"{city.replace(' ', '_')}_street_network.csv")
+    edges_df.to_csv(file_name, index=False)
 
-# Read the city coordinates from the text file
-with open("./city_coordinates.txt", "r") as file:
-    for line in file:
-        parts = line.split(":")
-        city_name = parts[0].strip()
-        coords = parts[1].strip().strip("()").split(",")
-        latitude = float(coords[0].strip())
-        longitude = float(coords[1].strip())
+    return edges_df.columns
 
-        # Extract and save street network for each city
-        extract_street_network((latitude, longitude), 1, city_name)
+# Folder path where the CSV files will be saved
+folder_path = '/Users/0s/Downloads/RCS/Code/CityGraph-Modeler/' # Replace with your desired folder path
+os.makedirs(folder_path, exist_ok=True)
+
+# Read city names from the file
+with open('cities.txt', 'r') as file:
+    cities = file.read().splitlines()
+
+# Set to collect all unique column names
+all_columns = set()
+
+# Iterate through the cities, fetch data, and collect column names
+for city in cities:
+    columns = get_street_network(city, folder_path)
+    all_columns.update(columns)
+
+# Convert the set of all columns to a list
+all_columns_list = list(all_columns)
+
+# Save the list of all column names to a file
+columns_file_path = os.path.join(folder_path, 'all_columns.txt')
+with open(columns_file_path, 'w') as file:
+    for col in all_columns_list:
+        file.write(col + '\n')
+
+# Notify the paths
+print(f"All city CSVs saved in: {folder_path}")
+print(f"List of all unique columns saved in: {columns_file_path}")
