@@ -3,11 +3,18 @@ import numpy as np
 import networkx as nx
 import os
 import re
+import logging
+
+logging.basicConfig(level=logging.INFO)
 
 def parse_linestring(linestring):
     # Extract coordinates from LINESTRING
-    coordinates = re.findall(r'\\((.*?)\\)', linestring)
-    return [tuple(map(float, coord.split())) for coord in coordinates[0].split(', ')]
+    coordinates = re.findall(r'LINESTRING \((.*?)\)', linestring)
+    if coordinates:
+        return [tuple(map(float, coord.split())) for coord in coordinates[0].split(', ')]
+    else:
+        return []  # Return an empty list if no match is found
+
 
 def create_graph_from_linestrings(df):
     G = nx.Graph()
@@ -37,6 +44,28 @@ def create_node_feature_matrix(df):
 
     # Drop duplicate rows to ensure each node is unique
     node_features = node_features.drop_duplicates().reset_index(drop=True)
+    return node_features
+
+def order_and_flatten_nodes(node_features):
+    # Order nodes by y-coordinate, then by x-coordinate
+    ordered_nodes = node_features.sort_values(by=['longitude', 'latitude'])
+
+    # Flatten the sequence of coordinates
+    Cseq = ordered_nodes.values.flatten()
+    # print(Cseq[:10])
+    # print(Cseq[-10:])
+    return Cseq
+
+def center_coordinates(node_features):
+    # Calculate the geometric center
+    center_x = node_features['latitude'].mean()
+    center_y = node_features['longitude'].mean()
+
+    # Shift the coordinates to center them
+    node_features['centered_latitude'] = node_features['latitude'] - center_x
+    node_features['centered_longitude'] = node_features['longitude'] - center_y
+
+    logging.info(f"Center of nodes shifted to: ({center_x}, {center_y})")
     return node_features
 
 def create_adjacency_matrix(G):
@@ -75,11 +104,14 @@ for filename in os.listdir(directory):
 
         # Create node feature matrix
         X = create_node_feature_matrix(df)
-        #print(X.head())
+        print(X.head())
+        Cseq = order_and_flatten_nodes(X)
+        X_centered = center_coordinates(X)
+        print(X_centered.head())
 
         # Create adjacency matrix
-        A = create_adjacency_matrix(G)
-        print(A)
+        # A = create_adjacency_matrix(G)
+        # print(A)
         # Train the model
         # model = train_model(X, A)
 
