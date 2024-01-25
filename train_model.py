@@ -65,7 +65,7 @@ def center_coordinates(node_features):
     node_features['centered_latitude'] = node_features['latitude'] - center_x
     node_features['centered_longitude'] = node_features['longitude'] - center_y
 
-    logging.info(f"Center of nodes shifted to: ({center_x}, {center_y})")
+    #logging.info(f"Center of nodes shifted to: ({center_x}, {center_y})")
     return node_features
 
 def normalize_coordinates(centered_node_features):
@@ -81,7 +81,14 @@ def normalize_coordinates(centered_node_features):
 
     return centered_node_features
 
+def quantize_coordinates(normalized_node_features):
+    quantized_node_features = normalized_node_features.copy()
+    quantized_node_features['quantized_latitude'] = ((normalized_node_features['normalized_latitude'] * 127.5) + 127.5).astype(int)
+    quantized_node_features['quantized_longitude'] = ((normalized_node_features['normalized_longitude'] * 127.5) + 127.5).astype(int)
 
+    return quantized_node_features
+
+    return quantized_node_features
 def create_adjacency_matrix(G):
     # Initialize the adjacency matrix with zeros
     adjacency_matrix = np.zeros((len(G.nodes), len(G.nodes)))
@@ -121,9 +128,11 @@ for filename in os.listdir(directory):
         #print(X.head())
         Cseq = order_and_flatten_nodes(X)
         X_centered = center_coordinates(X)
-        print("X_centered head \n", X_centered.head())
+        #print("X_centered head \n", X_centered.head())
         X_normalized = normalize_coordinates(X_centered)
-        print("X_normalised head \n", X_normalized.head())
+        #print("X_normalised head \n", X_normalized.head())
+        X_quantized = quantize_coordinates(X_normalized)
+        print(X_quantized.head())
         # Create adjacency matrix
         # A = create_adjacency_matrix(G)
         # print(A)
