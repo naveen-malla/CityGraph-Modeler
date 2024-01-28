@@ -46,15 +46,7 @@ def create_node_feature_matrix(df):
     node_features = node_features.drop_duplicates().reset_index(drop=True)
     return node_features
 
-def order_and_flatten_nodes(node_features):
-    # Order nodes by y-coordinate, then by x-coordinate
-    ordered_nodes = node_features.sort_values(by=['longitude', 'latitude'])
 
-    # Flatten the sequence of coordinates
-    Cseq = ordered_nodes.values.flatten()
-    # print(Cseq[:10])
-    # print(Cseq[-10:])
-    return Cseq
 
 def center_coordinates(node_features):
     # Calculate the geometric center
@@ -88,7 +80,16 @@ def quantize_coordinates(normalized_node_features):
 
     return quantized_node_features
 
-    return quantized_node_features
+def order_and_flatten_nodes(node_features):
+    # Order nodes by y-coordinate, then by x-coordinate
+    ordered_nodes = node_features.sort_values(by=['longitude', 'latitude'])
+
+    # Flatten the sequence of coordinates
+    Cseq = ordered_nodes.values.flatten()
+    # print(Cseq[:10])
+    # print(Cseq[-10:])
+    return Cseq
+
 def create_adjacency_matrix(G):
     # Initialize the adjacency matrix with zeros
     adjacency_matrix = np.zeros((len(G.nodes), len(G.nodes)))
@@ -121,21 +122,23 @@ for filename in os.listdir(directory):
         
         # Create graph from linestrings
         G = create_graph_from_linestrings(df)
-        #print(f"Number of nodes in the graph: {G.number_of_nodes()}")
+        print(f"Number of nodes in the graph: {G.number_of_nodes()}")
 
         # Create node feature matrix
         X = create_node_feature_matrix(df)
-        #print(X.head())
-        Cseq = order_and_flatten_nodes(X)
+        print(X.head())
+   
         X_centered = center_coordinates(X)
-        #print("X_centered head \n", X_centered.head())
+        print("X_centered head \n", X_centered.head())
         X_normalized = normalize_coordinates(X_centered)
-        #print("X_normalised head \n", X_normalized.head())
+        print("X_normalised head \n", X_normalized.head())
         X_quantized = quantize_coordinates(X_normalized)
         print(X_quantized.head())
+
+        Cseq = order_and_flatten_nodes(X_quantized)
         # Create adjacency matrix
-        # A = create_adjacency_matrix(G)
-        # print(A)
+        A = create_adjacency_matrix(G)
+        print(A)
         # Train the model
         # model = train_model(X, A)
 
