@@ -1,0 +1,3 @@
+osmid,name,highway,oneway,reversed,length,geometry
+193613535,Cutter Court,residential,False,False,53.685,"LINESTRING (-74.4896458 40.1347316, -74.4897483 40.135208)"
+193613535,Cutter Court,residential,False,True,53.685,"LINESTRING (-74.4897483 40.135208, -74.4896458 40.1347316)"

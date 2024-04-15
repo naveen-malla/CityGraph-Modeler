@@ -1,0 +1,3 @@
+osmid,tunnel,highway,oneway,reversed,length,geometry
+1266648201,yes,unclassified,False,True,11.977,"LINESTRING (90.811994 25.9829375, 90.8120192 25.9830428)"
+1266648201,yes,unclassified,False,False,11.977,"LINESTRING (90.8120192 25.9830428, 90.811994 25.9829375)"

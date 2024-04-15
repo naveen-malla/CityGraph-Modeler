@@ -1,0 +1,317 @@
+Arad
+Târgu Mureș
+Deva
+Brăila
+Focșani
+Lugoj
+Cluj-Napoca
+Reșița
+Caransebeș
+Bocșa
+Brad
+Sânnicolau Mare
+Pecica
+Oțelu Roșu
+Lipova
+Jimbolia
+Recaș
+Nădlac
+Gătaia
+Buziaș
+Ciacova
+Făget
+Deta
+Ilia
+Negrești-Oaș
+Timișoara
+Turda
+Sighișoara
+Rupea
+Predeal
+Azuga
+Bușteni
+Sinaia
+Comarnic
+Câmpina
+Ploiești
+Buzău
+Băicoi
+Mizil
+București
+Slobozia
+Galați
+Gura Humorului
+Frasin
+Vatra Dornei
+Ovidiu
+Tecuci
+Adjud
+Teiuș
+Aiud
+Copșa Mică
+Mediaș
+Dumbrăveni
+Curtici
+Sovata
+Breaza
+Târgoviște
+Orăștie
+Simeria
+Câmpia Turzii
+Ocna Mureș
+Luduș
+Iernut
+Târnăveni
+Eforie Nord
+Techirghiol
+Cernavodă
+Fetești
+Hârșova
+Vălenii de Munte
+Giurgiu
+Salonta
+Toplița
+Gheorgheni
+Drobeta-Turnu Severin
+Pitești
+Baia Mare
+Gherla
+Borșa
+Sighetu Marmației
+Carei
+Suceava
+Năsăud
+Bistrița
+Sfântu Gheorghe
+Slănic-Moldova
+Slănic
+Agnita
+Vlăhița
+Tulcea
+Bicaz
+Marghita
+Miercurea Sibiului
+Săcele
+Mioveni
+Curtea de Argeș
+Făgăraș
+Aleșd
+Ghimbav
+Hunedoara
+Iași
+Zalău
+Șimleu Silvaniei
+Băilești
+Zimnicea
+Botoșani
+Baraolt
+Sebiș
+Urziceni
+Buhuși
+Piatra Neamț
+Roman
+Ineu
+Pâncota
+Cisnădie
+Râșnov
+Zărnești
+Câmpulung
+Vișeu de Sus
+Boldești-Scăeni
+Jibou
+Caracal
+Topoloveni
+Corabia
+Baia de Arieș
+Beiuș
+Săcueni
+Ștei
+Valea lui Mihai
+Vașcău
+Orșova
+Strehaia
+Vânju Mare
+Oravița
+Anina
+Băile Herculane
+Bechet
+Dăbuleni
+Filiași
+Segarcea
+Târgu Jiu
+Motru
+Rovinari
+Bumbești-Jiu
+Turceni
+Slatina
+Balș
+Drăgănești-Olt
+Piatra-Olt
+Bragadiru
+Chitila
+Pantelimon
+Avrig
+Ocna Sibiului
+Săliște
+Tălmaciu
+Lupeni
+Vulcan
+Hațeg
+Petrila
+Codlea
+Cehu Silvaniei
+Tășnad
+Ardud
+Livada
+Baia Sprie
+Seini
+Ulmeni
+Săliștea de Sus
+Șomcuta Mare
+Beclean
+Râmnicu Vâlcea
+Drăgășani
+Călimănești
+Brezoi
+Bălcești
+Costești
+Alexandria
+Roșiorii de Vede
+Turnu Măgurele
+Videle
+Moreni
+Găești
+Pucioasa
+Titu
+Bolintin-Vale
+Mihăilești
+Eforie Sud
+Râmnicu Sărat
+Miercurea Ciuc
+Cristuru Secuiesc
+Bălan
+Borsec
+Târgu Secuiesc
+Covasna
+Întorsura Buzăului
+Călărași
+Fundulea
+Lehliu-Gară
+Medgidia
+Năvodari
+Negru Vodă
+Satu Mare
+Mărășești
+Țăndărei
+Târgu Frumos
+Urlați
+Podu Iloaiei
+Bârlad
+Vaslui
+Fieni
+Pașcani
+Măgurele
+Buftea
+Voluntari
+Dragomirești
+Nucet
+Moinești
+Comănești
+Băile Tușnad
+Pătârlagele
+Nehoiu
+Solca
+Rădăuți
+Milișăuți
+Siret
+Brașov
+Babadag
+Roznov
+Miercurea Nirajului
+Onești
+Budești
+Însurăței
+Ianca
+Amara
+Pogoanele
+Târgu Neamț
+Baia de Aramă
+Tismana
+Sibiu
+Târgu Bujor
+Novaci
+Fălticeni
+Ungheni
+Odobești
+Constanța
+Cavnic
+Salcea
+Horezu
+Scornicești
+Răcari
+Panciu
+Odorheiu Secuiesc
+Dorohoi
+Huși
+Moldova Nouă
+Craiova
+Murgeni
+Vicovu de Sus
+Măcin
+Isaccea
+Alba Iulia
+Abrud
+Blaj
+Câmpeni
+Cugir
+Zlatna
+Chișineu-Criș
+Sântana
+Ștefănești
+Victoria
+Murfatlar
+Potcoava
+Târgu Ocna
+Dărmănești
+Flămânzi
+Ștefănești
+Țicleni
+Târgu Cărbunești
+Căzănești
+Fierbinți-Târg
+Sărmașu
+Sângeorgiu de Pădure
+Berești
+Uricani
+Aninoasa
+Călan
+Otopeni
+Tăuții-Măgherăuș
+Târgu Lăpuș
+Plopeni
+Băbeni
+Câmpulung Moldovenesc
+Broșteni
+Cajvana
+Dolhasca
+Liteni
+Calafat
+Bacău
+Reghin
+Sebeș
+Petroșani
+Oltenița
+Făurei
+Geoagiu
+Negrești
+Popești-Leordeni
+Bucecea
+Darabani
+Săveni
+Băile Govora
+Dej
+Mangalia
+Oradea
+Hârlău
+Huedin
+Sulina

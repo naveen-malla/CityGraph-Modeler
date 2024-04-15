@@ -1,0 +1,15 @@
+junction
+oneway
+access
+bridge
+ref
+osmid
+length
+reversed
+name
+width
+geometry
+lanes
+maxspeed
+tunnel
+highway

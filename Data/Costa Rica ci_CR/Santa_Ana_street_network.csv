@@ -1,0 +1,3 @@
+osmid,name,highway,oneway,reversed,length,geometry
+64605612,Calle 32,residential,False,True,61.685,"LINESTRING (-84.1958222 9.9162373, -84.1957528 9.9160914, -84.1957188 9.9156992)"
+64605612,Calle 32,residential,False,False,61.685,"LINESTRING (-84.1957188 9.9156992, -84.1957528 9.9160914, -84.1958222 9.9162373)"

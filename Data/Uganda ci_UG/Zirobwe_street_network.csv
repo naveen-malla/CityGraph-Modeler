@@ -1,0 +1,3 @@
+osmid,name,highway,oneway,reversed,length,geometry
+27880916,Wobulenzi - Zirobwe Road,tertiary,False,False,253.914,"LINESTRING (32.6988824 0.6821511, 32.6998701 0.682565, 32.7009652 0.683086)"
+27880916,Wobulenzi - Zirobwe Road,tertiary,False,True,253.914,"LINESTRING (32.7009652 0.683086, 32.6998701 0.682565, 32.6988824 0.6821511)"

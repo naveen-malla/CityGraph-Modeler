@@ -1,0 +1,807 @@
+London
+Fordingbridge
+Marlborough
+New Milton
+Wells
+Pontefract
+Leeds
+Swaffham
+Romsey
+Battle
+Bath
+Yarmouth
+Bedford
+Shanklin
+Chester
+Caldicot
+Loughborough
+Leicester
+Biggar
+Wick
+Lincoln
+Glasgow
+Norwich
+East Cowes
+Cowes
+Ventnor
+Malvern
+Corbridge
+Oxford
+Settle
+Maltby
+Margate
+Newbury
+Witney
+Christchurch
+Dorking
+Reading
+Stamford
+Stevenage
+Swindon
+Ascot
+Baldock
+Towcester
+Arlesey
+Alton
+Warrington
+Portsmouth
+Crawley
+Haywards Heath
+Burgess Hill
+Royal Tunbridge Wells
+Gloucester
+Cheltenham
+Bournemouth
+Poole
+Coventry
+Birmingham
+Edinburgh
+Deal
+Ramsgate
+Chatham
+Gillingham
+Canterbury
+Fort William
+Great Yarmouth
+Peterborough
+Plymouth
+Hoddesdon
+Exeter
+Bridgwater
+Torquay
+Dorchester
+St Austell
+Yate
+Chipping Sodbury
+Helston
+Barnstaple
+Milton Keynes
+Scarborough
+Newcastle upon Tyne
+York
+Alnwick
+Morpeth
+Woodley
+Wotton-under-Edge
+Otley
+Carlisle
+Hartlepool
+Sunderland
+Berwick-upon-Tweed
+Cambridge
+Worcester
+Ware
+Brandon
+Walsall
+Solihull
+Gretna
+Lockerbie
+Marlow
+Watford
+Hemel Hempstead
+Leighton Buzzard
+Bletchley
+Wolverton
+Northampton
+Chelmsford
+Wakefield
+Stranraer
+Ayr
+Inverness
+Aberdeen
+Swansea
+Stirling
+Beaumaris
+Princes Risborough
+High Wycombe
+Gerrards Cross
+Lichfield
+Durham
+Alsager
+Tipton
+Perth
+Dundee
+Croydon
+Exmouth
+Evesham
+Hereford
+Beauly
+Sheerness
+Whitstable
+Watton
+Maldon
+Woodbridge
+Aberaeron
+Aberteifi / Cardigan
+Bury St Edmunds
+Pembroke
+Carmarthen
+Llanelli
+Bangor
+Loughton
+Chippenham
+Dover
+Liverpool
+Preston
+Minchinhampton
+Colchester
+Braintree
+Carnoustie
+Monifieth
+Leuchars
+St Andrews
+Hungerford
+Bridge of Earn
+Fakenham
+Dereham
+Streatham
+Kintore
+Inverurie
+Forres
+Nairn
+Letchworth
+Hitchin
+Fowey
+Ossett
+Aberystwyth
+Bridgnorth
+Grimsby
+Ellesmere Port
+Shepherd's Bush
+Clitheroe
+Blackburn
+Jedburgh
+Kingsteignton
+Newton Abbot
+Derby
+Cranbrook
+Nottingham
+Clayton-le-Moors
+Godmanchester
+Huntingdon
+Thurso
+St Albans
+Mold
+Leek
+Wolverhampton
+Chipping Campden
+Billericay
+Balloch
+Yeovil
+Paisley
+Largs
+Royston
+Rochester
+Andover
+Bromley
+Shrewsbury
+Oban
+Lochgilphead
+Basildon
+Crail
+Kirkcaldy
+Cowdenbeath
+Dunfermline
+South Queensferry
+Glossop
+New Mills
+Whaley Bridge
+Muir of Ord
+Alness
+Invergordon
+Tain
+Aviemore
+Dufftown
+Keith
+Kingussie
+Elgin
+Alloa
+Linlithgow
+Falkirk
+Stoke-on-Trent
+Helensburgh
+Burnley
+Maidstone
+Fortrose
+Stonehaven
+Montrose
+Hinckley
+Corby
+Glenrothes
+Grays
+Southport
+Lancaster
+Newport
+Skegness
+Hull
+King's Lynn
+Middlesbrough
+Bradford
+Telford
+Formby
+Wallasey
+Huddersfield
+Dewsbury
+Harpenden
+Ashford
+Folkestone
+Herne Bay
+Annan
+New Cumnock
+Markinch
+Kilmarnock
+Salford
+Truro
+Ripon
+Dunkeld
+Hythe
+Lydd
+Ilkeston
+Hucknall
+Mansfield
+Mablethorpe
+Newark on Trent
+Wellingborough
+Rushden
+Higham Ferrers
+Lennoxtown
+Bacup
+Greenock
+Earl Shilton
+Tenterden
+Faversham
+Gateshead
+Kendal
+Windermere
+Pickering
+Crowland
+Salcombe
+Paignton
+Totnes
+Pontypool
+Abertillery
+Rhymney
+Tredegar
+Ebbw Vale
+Brynmawr
+Caerphilly
+Pontypridd
+Barry
+Porthcawl
+Port Talbot
+Chepstow
+Monmouth
+Kincardine
+Chichester
+Portishead
+Aldridge
+Haverhill
+Ashton-under-Lyne
+Oldham
+Chadderton
+Middleton
+Shaw
+Royton
+Rochdale
+Heywood
+Bolton
+Wigan
+Tyldesley
+Irlam
+Altrincham
+Barnsley
+Cudworth
+Kilwinning
+Saltcoats
+City of London
+Stratford
+Greenwich
+Lewisham
+City of Westminster
+Wembley
+Uxbridge
+Romford
+Tilbury
+Sandwich
+Daventry
+Warwick
+Porthmadog
+Hatfield
+Potters Bar
+Newport Pagnell
+Stony Stratford
+Dudley
+Willenhall
+Stourport-on-Severn
+Oakengates
+Dawley
+Connah's Quay
+Flint
+Buckley
+Holywell
+St Asaph
+Rhyl
+Abergele
+Colwyn Bay
+Thatcham
+Kensington
+Orpington
+Bexleyheath
+Sevenoaks
+Billingham
+Chiswick
+Harrow
+Holyhead
+Cleethorpes
+Hadleigh
+Benfleet
+South Woodham Ferrers
+Shoeburyness
+Burnham-on-Crouch
+Brightlingsea
+Rothesay
+Millport
+Barnard Castle
+Guisborough
+Newmarket
+Guiseley
+Buckhurst Hill
+Steòrnabhagh
+Giffnock
+Neston
+Ripponden
+Tickhill
+Airdrie
+Oswaldtwistle
+Rishton
+Broadstairs
+Pudsey
+Llantwit Major
+Filey
+Kirkbymoorside
+Helmsley
+Broxburn
+Bathgate
+Dalbeattie
+Kirkcudbright
+Tadcaster
+Redhill
+St Just
+Ardrossan
+Kirkliston
+Harlech
+Stalham
+Barmouth
+Newcastle Emlyn
+Lampeter
+Whickham
+Kington
+Wells-next-the-Sea
+Falmouth
+Stenhousemuir
+Bognor Regis
+Grangemouth
+Bo'ness
+Inverkeithing
+Kinghorn
+Burntisland
+Dalgety Bay
+Rosyth
+Bannockburn
+Bonnyrigg
+Loanhead
+Rothwell
+Cardenden
+Lochgelly
+Ballingry
+Kelty
+Dollar
+Tillicoultry
+Tullibody
+Alva
+Bridge of Allan
+Kinross
+Strood
+Ashton-in-Makerfield
+Westgate-on-Sea
+Felpham
+Caernarfon
+Brixham
+Usk
+Fleetwood
+Haddington
+Bowness on Windermere
+Dunbar
+North Walsham
+Crieff
+Newburgh
+Auchtermuchty
+Irthlingborough
+Denbigh
+Hoyland
+Glastonbury
+Minster
+Cupar
+Brierfield
+Redcar
+Holmfirth
+Hunstanton
+Newcastle-under-Lyme
+Longton
+Burslem
+Kidsgrove
+Mirfield
+Batley
+Heckmondwike
+Brighouse
+Stubbington
+Sheringham
+Aylsham
+Milnrow
+Maghull
+Skelmersdale
+Mossley
+Northwich
+Thornaby-on-Tees
+Ingleby Barwick
+Yarm
+Penicuik
+Kearsley
+Astley
+Golborne
+Partington
+Halewood
+Farnworth
+Pendlebury
+Heysham
+Whitworth
+Failsworth
+Carshalton
+Hounslow
+Moffat
+Dalkeith
+Fraserburgh
+Macduff
+Banff
+Buckie
+East Kilbride
+North Berwick
+Biggleswade
+Cambourne
+Dunoon
+Peterlee
+Stockport
+Innerleithen
+Melrose
+Bexhill-on-Sea
+Bude
+Kempston
+Llandudno
+Hastings
+Lochmaben
+Woburn Sands
+Ellon
+Wellington
+Portree
+Leven
+Shifnal
+Knutsford
+Harwich
+Southwold
+Halesworth
+Peebles
+Bodmin
+Selkirk
+Auchterarder
+Cwmbran
+Welwyn Garden City
+Brecon
+Neath
+Merthyr Tydfil
+Clare
+Coatbridge
+Bellshill
+Motherwell
+Wishaw
+Gartcosh
+Bedale
+Uddingston
+Viewpark
+Bothwell
+Hadleigh
+Haxby
+Larkhall
+Stonehouse
+Honiton
+Porth
+Bradninch
+Callander
+Kings Heath
+Long Stratton
+Pershore
+Rainham
+Galston
+Neilston
+Livingston
+Strathaven
+Pembroke Dock
+Newport
+Eye
+Fishguard
+Newtown
+Pontardawe
+Shotts
+Whitburn
+Burry Port
+Kidwelly
+Huntly
+Alford
+Tayport
+Newport-on-Tay
+Blackburn
+Eyemouth
+Amble
+Fauldhouse
+Bawtry
+Galashiels
+Turriff
+Saundersfoot
+Ullapool
+Hawick
+Bromyard
+Cumbernauld
+Barrhead
+Kemnay
+Lenzie
+West Mersea
+Pitlochry
+Blaenavon
+Bridgend
+Basingstoke
+Kilbirnie
+Beith
+Gourock
+Sheffield
+Carryduff
+Dundonald
+Kilkeel
+Antrim
+Derry/Londonderry
+Strabane
+Banbridge
+Comber
+Cookstown
+Donaghadee
+Portadown
+Magherafelt
+Bangor
+Downpatrick
+Limavady
+Randalstown
+Carrickfergus
+Larne
+Dungannon
+Newcastle
+Coalisland
+Portrush
+Ballyclare
+Portstewart
+Ballymena
+Coleraine
+Armagh
+Craigavon
+Omagh
+Newtownabbey
+Enniskillen
+Warrenpoint
+Ballycastle
+Dromore
+Maesteg
+Blantyre
+Blackwood
+Erskine
+Clydebank
+Windsor
+Banchory
+Shotton
+Slough
+Oldmeldrum
+Dornoch
+Prestonpans
+Watchet
+Tranent
+Bramhall
+Ystrad Mynach
+Manchester
+Arundel
+Dalry
+Penarth
+Johnstone
+Pontarddulais
+Taunton
+Hexham
+Tonyrefail
+Pyle
+Hazel Grove
+Wrexham
+Cullen
+Lanark
+Milford Haven
+Caister on Sea
+Larbert
+Birchington
+Rotherham
+Rugby
+Gorebridge
+Mayfield
+Duns
+Newbridge
+Kelso
+Inverbervie
+Risca
+Hugh Town
+Forfar
+Alyth
+Polmont
+Camden Town
+Stepps
+Laurencekirk
+Stromness
+Wimbledon
+Coldstream
+Dunblane
+Coupar Angus
+Langholm
+Ystradgynlais
+Dingwall
+Abercynon
+Sandhurst
+Mountain Ash
+Crewe
+Aberdare
+Peterhead
+Bishopbriggs
+Lossiemouth
+Scone
+Westhill
+Methil
+Rutherglen
+Fenny Stratford
+Houghton Regis
+Ilford
+Maidenhead
+Lymington
+Chapel-en-le-Frith
+Great Harwood
+Sherborne
+Newry
+Llandudno Junction
+Sittingbourne
+Penzance
+Axbridge
+Kingston upon Thames
+Llantrisant
+Tonypandy
+Treorchy
+Cardiff
+Woolwich
+Kinmel Bay
+Grantown-on-Spey
+Darvel
+Newmilns
+Coleshill
+Chapel St Leonards
+Bristol
+Clarkston
+Droylsden
+Finedon
+Campbeltown
+Brynaman
+Southend-on-Sea
+Portlethen
+Treharris
+Brighton
+Newtonhill
+North Petherton
+Haverfordwest
+Belfast
+Kirkwall
+Lisburn
+Cheadle Hulme
+Cheadle
+Stockton-on-Tees
+Chesterfield
+Sandy
+Kilburn
+Salisbury
+Epsom
+Cobham
+Ely
+Ballymoney
+Lostwithiel
+Winchester
+Eton
+Lutterworth
+Doncaster
+Swadlincote
+Hampstead
+Guildford
+Reigate
+Ledbury
+Scalloway
+Walton-on-Thames
+Felixstowe
+Sutton
+Luton
+Tiverton
+Aboyne
+Esher
+Cambuslang
+Bourne
+Stafford
+Lerwick
+Southampton
+Gorseinon
+Ipswich
+Lowestoft
+Blaina
+Nantyglo
+Prestatyn
+Ludlow
+Alexandria
+Balerno
+Launceston
+Hamilton
+Northolt
+Ealing
+Southall
+Bracknell
+Whitehaven
+St Davids
+Irvine
+Stevenston
+Buckhaven
+Elderslie
+Anstruther
+Ballater
+Abergavenny
+Clackmannan
+Blairgowrie and Rattray
+Highcliffe-on-Sea
+Chipping Ongar
+Bonhill
+Bootle
+Aberfeldy
+Newton Mearns
+Bargoed
+Kirriemuir
+Arbroath
+Brechin
+Blackpool
+Chipping Barnet
+Thornliebank
+Diss
+Armadale
+March
+Chigwell
+Southam

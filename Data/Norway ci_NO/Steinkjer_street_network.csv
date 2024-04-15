@@ -1,0 +1,3 @@
+osmid,ref,name,highway,maxspeed,width,oneway,reversed,length,geometry
+368899026,E 6,Kvamsvegen,trunk,80,7.5,False,False,6.624,"LINESTRING (11.491836 64.053147, 11.491762 64.053197)"
+368899026,E 6,Kvamsvegen,trunk,80,7.5,False,True,6.624,"LINESTRING (11.491762 64.053197, 11.491836 64.053147)"

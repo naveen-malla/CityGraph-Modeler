@@ -1,0 +1,3 @@
+osmid,bridge,highway,oneway,reversed,length,geometry
+946968864,yes,tertiary_link,False,False,22.738,"LINESTRING (36.9538131 41.108283, 36.9539405 41.108274, 36.9540838 41.1082787)"
+946968864,yes,tertiary_link,False,True,22.738,"LINESTRING (36.9540838 41.1082787, 36.9539405 41.108274, 36.9538131 41.108283)"

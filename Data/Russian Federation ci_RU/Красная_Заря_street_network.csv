@@ -1,0 +1,3 @@
+osmid,lanes,ref,highway,maxspeed,oneway,reversed,length,geometry
+561725493,2,34Н-15,primary,90,False,False,560.311,"LINESTRING (42.525686 58.4470596, 42.5313055 58.4511517)"
+561725493,2,34Н-15,primary,90,False,True,560.311,"LINESTRING (42.5313055 58.4511517, 42.525686 58.4470596)"

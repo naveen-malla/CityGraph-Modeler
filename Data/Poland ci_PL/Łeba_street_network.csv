@@ -1,0 +1,3 @@
+osmid,name,highway,oneway,reversed,length,geometry
+289541767,Słowińska,residential,False,False,40.576,"LINESTRING (17.5385715 54.7570159, 17.5380731 54.7572405)"
+289541767,Słowińska,residential,False,True,40.576,"LINESTRING (17.5380731 54.7572405, 17.5385715 54.7570159)"

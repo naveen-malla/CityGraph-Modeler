@@ -1,0 +1,3 @@
+osmid,lanes,ref,highway,oneway,reversed,length,geometry
+111268744,2,NH34,trunk,False,False,152.15,"LINESTRING (80.004241 25.4044808, 80.004799 25.4057529)"
+111268744,2,NH34,trunk,False,True,152.15,"LINESTRING (80.004799 25.4057529, 80.004241 25.4044808)"

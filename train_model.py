@@ -6,6 +6,7 @@ import re
 import logging
 
 logging.basicConfig(level=logging.INFO)
+  
 
 def parse_linestring(linestring):
     # Extract coordinates from LINESTRING
@@ -80,14 +81,21 @@ def quantize_coordinates(normalized_node_features):
 
     return quantized_node_features
 
-def order_and_flatten_nodes(node_features):
+def order_and_flatten_nodes(node_features, cseq_file):
+    # Select only the quantized latitude and longitude
+    quantized_coords = node_features[['quantized_latitude', 'quantized_longitude']]
+    
     # Order nodes by y-coordinate, then by x-coordinate
-    ordered_nodes = node_features.sort_values(by=['longitude', 'latitude'])
+    ordered_coords = quantized_coords.sort_values(by=['quantized_longitude', 'quantized_latitude'])
 
     # Flatten the sequence of coordinates
-    Cseq = ordered_nodes.values.flatten()
-    # print(Cseq[:10])
-    # print(Cseq[-10:])
+    Cseq = ordered_coords.values.flatten()
+    print("Totoal Cseq: ", Cseq)
+    # Remove commas in between the numbers to make them only one space separated
+    #Cseq = [str(num).replace(',', ' ') for num in Cseq]
+
+    with open(cseq_file, 'w') as file:
+        file.write(' '.join(map(str, Cseq)) + '\n')
     return Cseq
 
 def create_adjacency_matrix(G):
@@ -111,38 +119,65 @@ def generate_synthetic_network(model):
     # Code to generate synthetic street networks using the trained model
     pass
 
-# Directory containing the CSV files
-directory = 'files/'
+# New base directory for Cseq data
+cseq_base_directory = 'Cseq_Data/'
+os.makedirs(cseq_base_directory, exist_ok=True)  # Create base directory if it doesn't exist
 
-# Iterate over each CSV file
-for filename in os.listdir(directory):
-    if filename.endswith(".csv"):
-        filepath = os.path.join(directory, filename)
-        df = pd.read_csv(filepath)
-        
-        # Create graph from linestrings
-        G = create_graph_from_linestrings(df)
-        print(f"Number of nodes in the graph: {G.number_of_nodes()}")
+# Base directory containing the country folders with city CSVs
+base_directory = 'Data/'  
 
-        # Create node feature matrix
-        X = create_node_feature_matrix(df)
-        print(X.head())
-   
-        X_centered = center_coordinates(X)
-        print("X_centered head \n", X_centered.head())
-        X_normalized = normalize_coordinates(X_centered)
-        print("X_normalised head \n", X_normalized.head())
-        X_quantized = quantize_coordinates(X_normalized)
-        print(X_quantized.head())
+# Iterate over each country folder
+for country_folder_name in os.listdir(base_directory):
+    country_folder_path = os.path.join(base_directory, country_folder_name)
+    
+    # Skip if it's not a directory
+    if not os.path.isdir(country_folder_path):
+        continue
 
-        Cseq = order_and_flatten_nodes(X_quantized)
-        # Create adjacency matrix
-        A = create_adjacency_matrix(G)
-        print(A)
-        # Train the model
-        # model = train_model(X, A)
+    # Extract country name and code from folder name
+    country_name, country_code = country_folder_name.rsplit('_', 1)
 
-        # Generate synthetic network
-        # synthetic_network = generate_synthetic_network(model)
+    # Create a new directory for Cseq data corresponding to this country
+    country_cseq_directory = os.path.join(cseq_base_directory, country_folder_name)
+    os.makedirs(country_cseq_directory, exist_ok=True)
 
-        # Analysis and evaluation of the synthetic network goes here
+    # Iterate over each CSV file in the country folder
+    for filename in os.listdir(country_folder_path):
+        if filename.endswith(".csv"):
+            print(f"Processing file: {filename}")
+            filepath = os.path.join(country_folder_path, filename)
+            df = pd.read_csv(filepath)
+            # Create graph from linestrings
+            G = create_graph_from_linestrings(df)
+            print(f"Number of nodes in the graph: {G.number_of_nodes()}")
+
+            # Create node feature matrix
+            X = create_node_feature_matrix(df)
+            #print(X.head())
+    
+            X_centered = center_coordinates(X)
+            #print("X_centered head \n", X_centered.head())
+            X_normalized = normalize_coordinates(X_centered)
+            #print("X_normalised head \n", X_normalized.head())
+            X_quantized = quantize_coordinates(X_normalized)
+            #print("X_quantized head \n", X_quantized.head())
+
+            # File path for saving the Cseq
+            city_name = filename.replace('_street_network.csv', '')
+            cseq_file = os.path.join(country_cseq_directory, f"{city_name}_cseq.txt")
+
+            # Call order_and_flatten_nodes and pass cseq_file instead of using a global variable
+            Cseq = order_and_flatten_nodes(X_quantized, cseq_file)            
+            print("Length of Cseq of " + filename + ": ", len(Cseq))
+            print("Cseq first 100: \n", Cseq[:100])
+            #print("Cseq last 100: \n", Cseq[-100:])
+            # Create adjacency matrix
+            A = create_adjacency_matrix(G)
+            #print(A)
+            # Train the model
+            # model = train_model(X, A)
+
+            # Generate synthetic network
+            # synthetic_network = generate_synthetic_network(model)
+
+            # Analysis and evaluation of the synthetic network goes here

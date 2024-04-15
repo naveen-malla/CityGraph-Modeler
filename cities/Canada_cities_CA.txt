@@ -1,0 +1,436 @@
+Toronto
+Ottawa
+Hamilton
+Cambridge
+Thunder Bay
+Sarnia
+Halifax
+Niagara Falls
+St. Catharines
+Saskatoon
+Martensville
+Regina
+Airdrie
+Selkirk
+Warman
+Cochrane
+Banff
+Red Deer
+Ponoka
+Strathmore
+Brooks
+Medicine Hat
+Crossfield
+Rocky Mountain House
+Carstairs
+Edmonton
+Yorkton
+Victoria
+Québec
+Slave Lake
+Ladysmith
+Orangeville
+Bedford
+Prince George
+Port Alberni
+Napanee
+Brockville
+Edmundston
+Drayton Valley
+Guelph
+St. Albert
+Sherwood Park
+High Level
+Fort Saskatchewan
+Bruderheim
+Valleyview
+Osoyoos
+Magrath
+Jasper
+Westlock
+Vegreville
+Peachland
+Salmon Arm
+Oliver
+Spruce Grove
+Peace River
+Leduc
+St. Paul
+Devon
+Cold Lake
+Camrose
+Fort Smith
+Summerland
+Drumheller
+Hinton
+Whitecourt
+Redcliff
+La Ronge
+Kipling
+Estevan
+Watrous
+Weyburn
+Swift Current
+Humboldt
+Moose Jaw
+North Battleford
+Prince Albert
+Esquimalt
+Sooke
+Sidney
+Langford
+Lake Cowichan
+Metchosin
+Pitt Meadows
+Bella Coola
+Agassiz
+Vancouver
+Burnaby
+Cumberland
+Quesnel
+Parksville
+Langley Township
+Gibsons
+Fort Nelson
+Hope
+Port Moody
+Port Coquitlam
+Nanaimo
+Abbotsford
+Gabriola
+Williams Lake
+Qualicum Beach
+West Vancouver
+Pinaymootang / Fairford
+ᒨᓵᑲᐦᐃᑲᐣ Mosakahiken
+The Pas
+Dauphin
+Winkler
+Winnipeg
+ᐸᓂᑇᓂᐱᐩ Oxford House
+Morden
+Neepawa
+Pinawa
+Flin Flon
+Magog
+Orillia
+Owen Sound
+Stayner
+Wawa
+Sherbrooke
+Saint-Hyacinthe
+Granby
+Pembroke
+La Prairie
+Iqaluit ᐃᖃᓗᐃᑦ
+Candiac
+Kugluktuk
+ᐳᕕᕐᓂᑐᖅ Puvirnituq
+Inuvik
+ᒥᑦᑎᒪᑕᓕᒃ Pond Inlet
+Hay River
+ᓴᓪᓗᐃᑦ Salluit
+ᐊᕐᕕᐊᑦ Arviat
+ᑲᖏᕿᓂᖅ Rankin Inlet
+ᐸᖕᓂᖅᑑᖅ Pangnirtung
+Iqaluktuuttiaq (Cambridge Bay)
+Chibougamau
+ᐙᔅᑳᐦᐄᑲᓂᔥ Waskaganish
+Kapuskasing
+Sept-Îles
+ᑭᓭᒫᑖᐘ Shamattawa
+Ignace
+ᒨᓱᓂᔾ Moosonee
+Baie-Comeau
+Dryden
+ᐃᓄᒃᔪᐊᒃ Inukjuak
+ᒥᔅᑎᓯᓃ Mistissini
+Twillingate
+Red Lake
+ᒨᓱᓃᐎ ᒥᓂᔅᑎᒃ Moose Factory
+Bishops Falls
+Joliette
+Saint John
+Winnipeg Beach
+Mayerthorpe
+Burlington
+Brampton
+Mississauga
+Saint-Constant
+Sainte-Catherine
+Chestermere
+Saint-Basile-le-Grand
+Fredericton
+Moncton
+Miramichi
+Woodstock
+Bathurst
+Trois-Rivières
+Louiseville
+Saint-Jean-sur-Richelieu
+Brantford
+Beauharnois
+St. John's
+Rouyn-Noranda
+Woodstock
+Repentigny
+Lévis
+Sparwood
+Waterloo
+L'Ancienne-Lorette
+Longueuil
+Boisbriand
+Sainte-Thérèse
+Blainville
+Saint-Eustache
+Saint-Jérôme
+L'Assomption
+Windsor
+Grande Cache
+Chatham
+Delta
+Amherst
+Kitchener
+Rimouski
+Bedford
+Sainte-Julie
+Saint-Bruno-de-Montarville
+Penetanguishene
+Midland
+Milton
+Whistler
+Lantzville
+Mission
+Shawinigan
+Oshawa
+Lunenburg
+Kingsville
+Chilliwack
+Embrun
+Casselman
+Cornwall
+Boischatel
+Swan Hills
+Colwood
+Montréal
+Sainte-Anne-des-Plaines
+Simcoe
+Saint-Augustin-de-Desmaures
+Thetford Mines
+Chandler
+Russell
+Charlottetown
+Vaughan
+West Kelowna
+Matane
+Surrey
+North Cowichan
+Neguac
+Tracadie-Sheila
+Caraquet
+Sydney
+Kentville
+Yarmouth
+Summerside
+Stanstead
+Stonewall
+Welland
+Fort McMurray
+Grand Falls-Windsor
+Bonavista
+Souris
+Stratford
+Witless Bay
+Beaupré
+Victoria
+Carbonear
+Harbour Grace
+Spaniard's Bay
+Arnold's Cove
+Roberval
+Stratford
+Dolbeau-Mistassini
+Pickering
+Saint-Lambert
+Thurso
+Gatineau
+Chambly
+Petawawa
+ᐐᒥᓂᒌ Wemindji
+Manning
+Bracebridge
+Torbay
+Fort Frances
+Bay Roberts
+Whitby
+Farnham
+Waterloo
+Timmins
+Mont-Saint-Hilaire
+Belœil
+Laval
+Metcalfe
+Les Cèdres
+Saint-Lazare
+Grimsby
+Dawson Creek
+Creighton
+ᐃᒡᓗᓕᒃ Igloolik
+Coquitlam
+La Tuque
+La Broquerie
+Steinbach
+Mitchell
+Brandon
+Portage la Prairie
+Paradise
+Emo
+Athabasca
+Gaspé
+Smithers
+Lacombe
+Morris
+Bay Bulls
+Kenora
+Kamloops
+Thompson
+ᑕᑕᐢᑿᔭᕽ Split Lake
+Gillam
+Saanich
+Central Saanich
+North Saanich
+Minnedosa
+Harbour Breton
+St. Anthony
+Armstrong
+Enderby
+St. Thomas
+Beamsville
+Georgetown
+Bancroft
+Canmore
+Baie Verte
+Port Colborne
+Pouch Cove
+Markham
+Vanderhoof
+Dieppe
+View Royal
+Sudbury
+Powell River
+Comox
+Alberton
+Fermont
+Mascouche
+Terrebonne
+Dunnville
+Labrador City
+Wabush
+Sturgeon Falls
+Swan River
+Clearwater
+Garden Hill   (Kistiganwacheeng)
+Minithayinikam / St. Theresa Point
+ᐗᓴᑲᒪᐣᐠ Wasagamack
+Happy Valley-Goose Bay
+Zaagiing / Fort Alexander
+Powerview-Pine Falls
+Chetwynd
+Thorold
+Temiskaming Shores
+ᐙᔂᓂᐲ Waswanipi
+Gimli
+Renfrew
+Grande Prairie
+Oakbank
+ᐱᒥᒋᑲᒫᐠ  Cross Lake
+Merrickville
+Upper Island Cove
+Deseronto
+Corner Brook
+Pictou
+Beaumont
+Campbell River
+Duncan
+Sechelt
+Ear Falls
+Pilot Butte
+Fox Creek
+Edson
+Elliot Lake
+Sault Ste. Marie
+Fort St. John
+Yellowknife
+Behchokǫ̀
+Angus
+Whitehorse
+Unamen Shipu
+Lethbridge
+Kingston
+Pointe-Calumet
+Russell
+ᓀᑲᣞ ᓵᑲᐦᐃᑲᓃᐣᐠ Sandy Lake
+Berwick
+Langley City
+ᐲᐦᑖᐯᒄ Fort Albany
+Portugal Cove - St. Philip's
+Altona
+Penticton
+ᓇᐅᔮᑦ Naujaat
+Saint-Georges
+Vaudreuil-Dorion
+Salaberry-de-Valleyfield
+Bromont
+Sainte-Marthe-sur-le-Lac
+Melville
+ᒋᓵᓰᐲ Chisasibi
+Arnprior
+Calgary
+Drummondville
+Sheshatshiu
+North Bay
+Lac du Bonnet
+Wikwemikong
+Courtenay
+Varennes
+Nicolet
+Victoriaville
+Oak Bay
+Port Hardy
+Port McNeill
+Squamish / Sḵwx̱wú7mesh
+Maple Ridge
+New Westminster
+Prince Rupert
+Lake Country
+Kelowna
+Fort Qu'Appelle
+Springdale
+White Rock
+Richelieu
+Dartmouth
+Val-d'Or
+ᐋᐦᑕᐙᐱᐢᑲᑐᐎ Attawapiskat
+Richmond
+Mahone Bay
+Wolfville
+Kawartha Lakes
+Quinte West
+Barrie
+Clarence-Rockland
+Lakeshore
+Innisfil
+Cowansville
+Florenceville-Bristol
+Saint Andrews
+Hanna
+Barrhead
+Bowmanville
+ᑭᙵᐃᑦ
+Waanibiigaaw  / Wanipigow
+ᐅᐸᐢᑿᔭᐠ Opaskwayak Cree Nation
+ᑫᔒᒋᐗᓐ Kashechewan First Nation
+Pelham
+Atherley
+Bonnyville
+London

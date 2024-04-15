@@ -1,0 +1,3 @@
+osmid,name,highway,oneway,reversed,length,geometry
+520372306,Walker Road,residential,False,False,274.729,"LINESTRING (-82.692252 43.382523, -82.688857 43.38265)"
+520372306,Walker Road,residential,False,True,274.729,"LINESTRING (-82.688857 43.38265, -82.692252 43.382523)"

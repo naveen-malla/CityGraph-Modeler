@@ -1,0 +1,322 @@
+Santiago
+La Serena
+Coquimbo
+Viña del Mar
+Talca
+Puerto Montt
+Ancud
+Punta Arenas
+Pozo Almonte
+Diego de Almagro
+Hualqui
+Chillán Viejo
+Isla de Maipo
+Curicó
+San José de Maipo
+Lumaco
+Zapallar
+Los Lagos
+Freirina
+San Vicente de Tagua Tagua
+Trehuaco
+El Carmen
+Curanilahue
+Peumo
+Pelarco
+La Higuera
+Ventanas
+Carahue
+Tongoy
+Contulmo
+Río Bueno
+Florida
+Machalí
+Puerto Chacabuco
+Peñaflor
+Santa Bárbara
+Maullín
+Vilcún
+San Ignacio
+Yerbas Buenas
+Coelemu
+Portezuelo
+Doñihue
+Cunco
+Chañaral
+Chillán
+Chimbarongo
+Purén
+Batuco
+San Clemente
+San Felipe
+Achao
+Calbuco
+Pinto
+Las Cabras
+Panguipulli
+Combarbalá
+Collipulli
+Palena
+Puchuncaví
+Coinco
+Lampa
+Graneros
+La Calera
+Tucapel
+Chile Chico
+Quellón
+Quirihue
+Huépil
+La Ligua
+Lota
+Quintero
+Rengo
+Coltauco
+Monte Patria
+Codegua
+Mejillones
+Los Andes
+Rosario
+Hualañé
+Angol
+Chiguayante
+Papudo
+Licantén
+Rocas de Santo Domingo
+Puerto Varas
+San Fabián de Alico
+Maitencillo
+Ercilla
+Pelluhue
+Empedrado
+San Francisco de Mostazal
+Gorbea
+Paine
+Curepto
+Mininco
+San Pablo
+Tinguiririca
+Quemchi
+Cañete
+Lautaro
+Osorno
+Alto Jahuel
+Los Muermos
+Calle Larga
+El Palqui
+Queilén
+San Gregorio
+Pica
+Melinka
+Niebla
+Puerto Octay
+Los Ángeles
+San Esteban
+Los Sauces
+Cherquenco
+Quillota
+Cochrane
+Galvarino
+Tiltil
+El Monte
+Melipilla
+Iquique
+Labranza
+Bulnes
+Puerto Saavedra
+Chanco
+San Fernando
+Perquenco
+Nacimiento
+Rancagua
+Renaico
+Santa María
+Paredones
+Lolol
+Peralillo
+Chicureo
+Cauquenes
+Lonquimay
+Tocopilla
+Catemu
+Quillón
+Pucón
+Caldera
+Corral
+Colina
+Punitaqui
+Coñaripe
+Futaleufú
+Tomé
+Concón
+Coyhaique
+Pitrufquén
+San José de La Mariquina
+Linares
+Sagrada Familia
+San Rosendo
+San Pedro de Atacama
+Chépica
+Traiguén
+Putaendo
+Calama
+Petorca
+Campanario
+Villa Alemana
+Villarrica
+Neltume
+Chaitén
+Curacaví
+Puerto Aysén
+Coronel
+Ninhue
+Quilleco
+Licán Ray
+Quilpué
+Cumpeo
+Purranque
+Capitán Pastene
+Colbún
+El Melón
+Malloa
+Chonchi
+Entre Lagos
+La Unión
+Tierra Amarilla
+Antofagasta
+Mulchén
+Freire
+Rinconada
+Hijuelas
+Retiro
+Dichato
+Cachagua
+Cholchol
+Santa Juana
+Hospital
+Fresia
+Buin
+Los Álamos
+Curarrehue
+Loncoche
+María Pinto
+Porvenir
+Puerto Williams
+Longaví
+Vallenar
+Pelequén
+Santa Cruz
+Panimávida
+Pichidegua
+Casablanca
+Cobquecura
+Pichilemu
+Negrete
+San Carlos de Purén
+Parral
+Rauco
+Maule
+Puerto Cisnes
+Ovalle
+Monte Águila
+Victoria
+Tirúa
+Curanipe
+María Elena
+Llaillay
+Melipeuco
+Copiapó
+Yumbel
+Quilaco
+Río Negro
+San Carlos
+Las Cruces
+Pichidangui
+Taltal
+El Salvador
+Villa Alegre
+Los Vilos
+Haŋa Roa
+Placilla de Peñuelas
+Canteras
+Coihueco
+Marchigüe
+San Rafael
+El Tabo
+Futrono
+Lebu
+Lago Ranco
+Llanquihue
+Nueva Imperial
+Paillaco
+Villa Prat
+Alto Hospicio
+Máfil
+Cabrero
+Cartagena
+Huara
+Penco
+Ñipas
+Concepción
+Putre
+Estación Yumbel
+Curacautín
+Teno
+Constitución
+Litueche
+Illapel
+El Quisco
+Salamanca
+Bollenar
+Hualpén
+Huelquén
+Pencahue
+Frutillar
+Algarrobo
+Rafael
+La Cruz
+Huasco
+Lo Miranda
+Quinta de Tilcoco
+Requínoa
+Laja
+Nancagua
+Villa Alhué
+Lanco
+Pueblo Seco
+Temuco
+Dalcahue
+Gultro
+Hornopirén
+Romeral
+La Punta
+San Pedro de la Paz
+San Javier
+Mirasol
+Talcahuano
+Nueva Toltén
+La Estrella
+Esmeralda
+Panquehue
+San Antonio
+Vicuña
+Arauco
+Castro
+Andacollo
+Cabildo
+Valparaíso
+Calera de Tango
+Arica
+Olmué
+Yungay
+Teodoro Schmidt
+Puerto Natales
+Nogales
+Talagante
+Antuco
+Valdivia
+Padre Las Casas
+El Principal
+Limache
+San Nicolás
+Pemuco

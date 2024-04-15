@@ -1,0 +1,5 @@
+osmid,name,highway,oneway,reversed,length,geometry
+15868334,Pineridge Street,residential,False,False,92.181,"LINESTRING (-92.401464 40.750662, -92.401467 40.749833)"
+15868334,Pineridge Street,residential,False,False,45.815,"LINESTRING (-92.401467 40.749833, -92.401567 40.749428)"
+15868334,Pineridge Street,residential,False,True,92.181,"LINESTRING (-92.401467 40.749833, -92.401464 40.750662)"
+15868334,Pineridge Street,residential,False,True,45.815,"LINESTRING (-92.401567 40.749428, -92.401467 40.749833)"

@@ -1,0 +1,3 @@
+osmid,highway,oneway,reversed,length,geometry
+335325087,tertiary,False,False,278.858,"LINESTRING (119.328265 31.4407216, 119.3311483 31.4412092)"
+335325087,tertiary,False,True,278.858,"LINESTRING (119.3311483 31.4412092, 119.328265 31.4407216)"

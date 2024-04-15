@@ -1,0 +1,320 @@
+Viseu
+Braga
+Évora
+Vila Real
+Setúbal
+Portalegre
+Santarém
+Leiria
+Bragança
+Faro
+Angra do Heroísmo
+Funchal
+Lamego
+Mangualde
+Santa Comba Dão
+Tarouca
+Tondela
+São João da Madeira
+Oliveira de Azeméis
+Santa Maria da Feira
+Almodôvar
+Serpa
+Moura
+Barcelos
+Vizela
+Macedo de Cavaleiros
+Mirandela
+Covilhã
+Oliveira do Hospital
+Borba
+Estremoz
+Machico
+Lagoa
+Ponta Delgada
+Horta
+Ribeira Grande
+Praia da Vitória
+Reguengos de Monsaraz
+Vendas Novas
+Silves
+Lagoa
+Tavira
+Olhão
+Loulé
+Lagos
+Sabugal
+Trancoso
+Seia
+Peniche
+Marinha Grande
+Pombal
+Valença
+Vila Franca de Xira
+Cascais
+Odivelas
+Torres Vedras
+Loures
+Elvas
+Sousel
+Paços de Ferreira
+Felgueiras
+Póvoa de Varzim
+Maia
+Amarante
+Gondomar
+Marco de Canaveses
+Trofa
+Vila do Conde
+Almeirim
+Cartaxo
+Rio Maior
+Benavente
+Tomar
+Ourém
+Abrantes
+Sines
+Barreiro
+Seixal
+Almada
+Alcácer do Sal
+Espinho
+Coimbra
+Ponte de Sor
+Valpaços
+Peso da Régua
+Chaves
+Guifões
+Sagres
+Luz
+Luso
+Paul
+Pampilhosa do Botão
+Montijo
+Darque
+Beja
+Lisboa
+Camacha
+São Mamede de Infesta
+Caniço
+Alcains
+Quarteira
+Rio de Moinhos
+Alpendorada
+Gouveia
+Campo (São Martinho)
+Rebordões
+Santo Tirso
+Riba de Ave
+Santiago do Cacém
+São Mamede
+Fátima
+Nespereira
+São Pedro do Sul
+Miranda do Douro
+Frazão
+São Martinho do Campo
+Alfena
+Valongo
+Mira de Aire
+Fermentelos
+Alfeizerão
+Esmoriz
+Silvalde
+Bustos
+Paião
+Vila Baleira
+Angeja
+Vila Nova de Santo André
+Samora Correia
+Santana
+Louriçal
+Guarda
+Loriga
+Carvoeiro
+Ermesinde
+Rio Tinto
+Fiães
+Recarei
+Vila Nova de Foz Coa
+Valongo do Vouga
+Rebordosa
+Alverca do Ribatejo
+Albergaria-a-Velha
+Fajões
+Nogueira do Cravo
+Aguada de Cima
+Fafe
+Sangalhos
+Paredes
+Valbom
+Sobreira
+Salto
+Oiã
+Cabanas de Viriato
+Albufeira
+Costa da Caparica
+Izeda
+Joane
+Guimarães
+Torre de Dona Chama
+Figueira da Foz
+São Roque
+Loureiro
+Alvite
+Palhaça
+Amora
+Amadora
+Póvoa de Santa Iria
+Oliveirinha
+Turquel
+Estarreja
+Mamarrosa
+Sendim
+Lixa
+Soza
+Caria
+Mões
+Sobrado
+Águas Santas
+Pinheiro da Bemposta
+Carvalhosa
+Freamunde
+Branca
+Queluz
+Caniçal
+Câmara de Lobos
+Estreito de Câmara de Lobos
+Porto da Cruz
+Canas de Senhorim
+Vila Nova de Gaia
+Troviscal
+Arrifana
+São Pedro de Rates
+São Miguel de Souto
+Castêlo da Maia
+Teixoso
+Torreira
+Santa Eulália
+Ferro
+Avanca
+Gafanha da Nazaré
+Gafanha da Encarnação
+Vila Nova de Anha
+Melres
+Oliveira do Bairro
+Vila Nova de Famalicão
+Eixo
+Ílhavo
+Salreu
+Águeda
+Pardilhó
+Vila Meã
+Cucujães
+Barroselas
+Matosinhos
+Caldas de São Jorge
+Vila Real de Santo António
+Ribeirão
+Cesar
+São João
+Válega
+Caldas da Rainha
+Aveiro
+Lourosa
+Alcobaça
+Porto
+Santa Marinha do Zêzere
+Amiais de Baixo
+Sacavém
+Lordelo
+Moreira de Cónegos
+Apúlia
+Forjães
+Fão
+Vila de Prado
+Arões (São Romão)
+Arco de Baúlhe
+Cavez
+Freixianda
+Cerva
+Vidago
+Carrazedo de Montenegro
+Portimão
+Penafiel
+Esposende
+Agualva-Cacém
+Alvarães
+Mêda
+Alfarelos
+Cacia
+Cortegaça
+Lordelo
+Gandra
+Maceda
+Lobão
+Ancede
+Lavra
+São João de Ver
+Avintes
+Ovar
+Vale de Cambra
+Anadia
+Mealhada
+Pinhel
+Cantanhede
+Valadares
+Arcozelo
+Fundão
+Porto de Mós
+Carregosa
+Sandim
+Mozelos
+Argoncilhe
+Tavarede
+Raiva
+Pedroso
+Canelas
+Moreira
+Custóias
+Senhora da Hora
+Abragão
+Paço de Sousa
+Cete
+Sobrosa
+Vilela
+Aguçadoura
+Aver-o-Mar
+Vilarinho
+Leomil
+Crestuma
+Grijó
+Lever
+Madalena
+Olival
+Perosinho
+Serzedo
+São Félix da Marinha
+Nogueira da Regedoura
+Rio Meão
+Paços de Brandão
+Santa Maria de Sardoura
+Anta
+Canedo
+Santa Maria de Lamas
+São Paio de Oleiros
+Macieira de Cambra
+São Pedro de Castelões
+Souselo
+Cambres
+Santar
+São Pedro
+Baltar
+Viana do Castelo
+Santa Cruz
+Montemor-o-Novo
+Castelo Branco
+Silgueiros
+Torres Novas
+Gonçalo
+Avelar

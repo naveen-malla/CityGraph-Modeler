@@ -1,0 +1,580 @@
+Sydney
+Laurieton
+Taree
+Tuncurry
+Forster
+North Sydney
+Manly
+Chatswood
+Parramatta
+Toowoomba
+Wollongong
+Blaxland
+Springwood
+Faulconbridge
+Hazelbrook
+Leura
+Wentworth Falls
+Katoomba
+Dalby
+Murwillumbah
+Kingscliff
+Tweed Heads
+Kyogle
+Highfields
+Melbourne
+Canberra
+Port Macquarie
+Brunswick Heads
+Seymour
+Benalla
+Wallan
+Kilmore
+Newcastle
+Batemans Bay
+Kiama
+Nowra
+Bomaderry
+Ulladulla
+Morisset
+Nelson Bay
+Nambucca Heads
+Urunga
+Coffs Harbour
+Woolgoolga
+Ballina
+Byron Bay
+Hornsby
+Woden
+Liverpool
+Devonport
+Port Sorell
+Tuggeranong
+Perth
+Alice Springs
+Coober Pedy
+Port Augusta
+Cairns
+Grenfell
+Goulburn
+Kununurra
+Tom Price
+Gundagai
+Kalgoorlie
+Warburton
+Mildura
+Bendigo
+Merredin
+Townsville
+Gerringong
+Berry
+Ulverstone
+Ceduna
+Lancefield
+Bungendore
+Shoalhaven Heads
+Bunbury
+Katherine
+Quorn
+Penguin
+Burnie
+Balaklava
+Kadina
+Wallaroo
+Moonta
+Callala Bay
+Oberon
+Jurien Bay
+Bright
+Geraldton
+Dongara
+Milton
+Maldon
+Winchelsea
+Lorne
+Geelong
+Vincentia
+Gloucester
+Moruya
+Kurri Kurri
+Queanbeyan
+Narooma
+Bermagui
+Harvey
+Port Hedland
+South Hedland
+Yanchep
+Two Rocks
+Bindoon
+Broome
+Lakes Entrance
+Bairnsdale
+Morwell
+Warragul
+Drouin
+Moe
+Hobart
+Bega
+Tathra
+Mount Gambier
+Leongatha
+Inverloch
+Wonthaggi
+Foster
+Orbost
+Heyfield
+Dorrigo
+Bellingen
+Glen Innes
+Armidale
+Gisborne
+Euroa
+Broadford
+Daylesford
+Picton
+Kinglake
+Healesville
+Portland
+Fernvale
+Maryborough
+Macksville
+Alexandra
+Yea
+Mansfield
+Nagambie
+Heathcote
+Hervey Bay
+Tin Can Bay
+Rainbow Beach
+Merimbula
+Wentworth
+Carnarvon
+Lithgow
+Blayney
+Melton
+Maffra
+Manjimup
+Donnybrook
+Busselton
+Woodside
+Longreach
+Guyra
+Tenterfield
+Stanthorpe
+Cootamundra
+Robinvale
+Pinjarra
+Sorell
+Wee Waa
+Moss Vale
+Castlemaine
+Kempsey
+South West Rocks
+Yass
+Bingara
+Manilla
+Beerwah
+Barraba
+Sussex Inlet
+New Norfolk
+Appin
+Bargo
+Bundanoon
+Robertson
+Eden
+Helensburgh
+Lightning Ridge
+Yenda
+Balranald
+Bourke
+Cobar
+Cooma
+Coonamble
+Coolamon
+Cowra
+Deniliquin
+Culcairn
+Holbrook
+Junee
+Condobolin
+Lake Cargelligo
+Leeton
+Moama
+Narrandera
+Orange
+Parkes
+Tumut
+Crookwell
+Walcha
+Wagga Wagga
+Coonabarabran
+Murrumbateman
+Capel
+Alstonville
+Finley
+Bombala
+Broken Hill
+Canowindra
+Molong
+Nyngan
+Branxton
+Cessnock
+Hillston
+Dubbo
+Dungog
+Harrington
+Warialda
+Muswellbrook
+Gulgong
+Kandos
+Mudgee
+Casino
+Tamworth
+Lismore
+Bulahdelah
+Aberdeen
+Merriwa
+Maitland
+Scone
+Gosford
+Woy Woy
+Raymond Terrace
+Blackheath
+Kurrajong
+Penrith
+Buronga
+Tahmoor
+Uralla
+Colac
+Cobden
+Camperdown
+Hamilton
+Horsham
+Pambula
+Singleton
+Echuca
+Swan Hill
+Tocumwal
+Kilcoy
+Maleny
+Mount Barker
+Bridgetown
+Portarlington
+Kerang
+Rochester
+Gold Coast
+Cobram
+Yarrawonga
+Wellington
+Loxton
+Korumburra
+Harden
+Tumbarumba
+Beechworth
+Innisfail
+Gordonvale
+Mossman
+Bathurst
+Ballan
+Millicent
+Nuriootpa
+Kapunda
+Gawler
+Ballarat
+Avoca
+Werris Creek
+Quirindi
+Yarra Junction
+Woori Yallock
+Tanunda
+Palmwoods
+Goondiwindi
+Mount Barker
+Denmark
+Tallangatta
+Stirling
+Corryong
+Young
+Murray Bridge
+St Arnaud
+Waroona
+Boonah
+Mullumbimby
+Forbes
+West Wyalong
+Katanning
+Pomona
+Bannockburn
+Bamaga
+Launceston
+Deloraine
+Westbury
+Perth
+Childers
+Narromine
+Gilgandra
+Bundaberg
+Bargara
+Mareeba
+Atherton
+Yungaburra
+Wauchope
+Charleville
+Cunnamulla
+Crows Nest
+Nanango
+Gayndah
+Collinsville
+Monto
+Biloela
+Gladstone
+Mount Isa
+Cloncurry
+Normanton
+Cooktown
+Tully
+Victor Harbor
+Berri
+Crystal Brook
+Clare
+Keith
+Goolwa
+Merbein
+Margaret River
+Augusta
+St Helens
+Dunsborough
+Yallingup
+Queenstown
+Tumby Bay
+Kyabram
+Tatura
+Whyalla
+Cowell
+Port Lincoln
+Bridport
+George Town
+Scottsdale
+Huonville
+Margate
+Yarra Glen
+Bordertown
+Mount Morgan
+Tuross Head
+Whittlesea
+Millmerran
+Nambour
+Mortlake
+Woodend
+Kyneton
+Maryborough
+York
+Hughenden
+Donald
+Stawell
+Ararat
+Nairne
+Rosewood
+Laidley
+Gatton
+Nhill
+Warracknabeal
+Clermont
+McLaren Vale
+Willunga
+Chinchilla
+Kalbarri
+Oakey
+Esk
+Lowood
+Boddington
+Creswick
+Exmouth
+Weston Creek
+Narrogin
+Newman
+Collie
+Wickham
+Derby
+Agnes Water
+Moora
+Kingston SE
+Exeter
+Jindabyne
+Longford
+Koroit
+Legana
+Numurkah
+Yeppoon
+Calliope
+Rutherglen
+Wynyard
+Moranbah
+Evandale
+Kingaroy
+Beaufort
+Red Cliffs
+Robe
+Burnett Heads
+Barmera
+Port Pirie
+Casterton
+Koo Wee Rup
+Riddells Creek
+Lang Lang
+Nhulunbuy
+Latrobe
+Ardrossan
+Gembrook
+Aurukun
+Naracoorte
+Nathalia
+Wangaratta
+Bacchus Marsh
+Blackall
+Maitland
+Adelaide
+Smithton
+Macedon
+Maclean
+Port Denison
+Terang
+Malanda
+Snug
+Babinda
+Bullsbrook
+Brisbane
+Beaudesert
+Seville
+Darwin
+Wondai
+Murgon
+Port Douglas
+Heywood
+Howard
+Sale
+Miles
+Ingham
+Mundijong
+Serpentine
+Walkerston
+Mount Compass
+Warwick
+Bakers Creek
+Emerald
+Gunnedah
+Griffith
+Moura
+Inverell
+Barcaldine
+Cherbourg
+Barham
+Tennant Creek
+Wagin
+Galiwinku
+Cowaramup
+Romsey
+Williamstown
+Bowen
+Mackay
+Proserpine
+Freeling
+Gympie
+Hay
+Tailem Bend
+Mannum
+Virginia
+Walgett
+Roma
+Angle Vale
+Lobethal
+Hill Top
+Paynesville
+Esperance
+Albany
+Landsborough
+Penola
+Eumundi
+Clifton
+Moree
+St George
+Narrabri
+Peterborough
+Charters Towers
+Waikerie
+Rockhampton
+Westbrook
+Pittsworth
+Warren
+Sheffield
+Cohuna
+Kambalda West
+Renmark
+Cygnet
+Jamestown
+Ayr
+Bunyip
+Home Hill
+Weipa
+Strathalbyn
+Normanville
+Roxby Downs
+Kingscote
+Mooroopna
+Shepparton
+Albury
+Gracemere
+Warrnambool
+Port Fairy
+Traralgon
+Beaconsfield
+Mulwala
+Yamba
+Mount Beauty
+Mallacoota
+Cardwell
+Northam
+Drysdale
+Queenscliff
+Cowes
+Lara
+Sunbury
+Googong
+Leopold
+Torquay
+St Leonards
+Anglesea
+Blackwater
+Myrtleford
+Cooroy
+Corowa
+Ocean Grove
+Dysart
+Wadeye
+Gidgegannup
+Tongala
+Moore Park Beach
+Paraburdoo
+Burrum Heads
+Fitzroy Crossing
+Mundubbera
+Grafton
+Karratha
+Wandong
+Thursday Island
+Jimboomba
+Milingimbi
+Ngukurr
+Dampier
+Apollo Bay
+Temora
+Boorowa
+Braidwood
+Yandina
+River Heads
+Tolga
+Middlemount
+Sunshine Coast
+Wodonga
+Dimboola
+Ouyen

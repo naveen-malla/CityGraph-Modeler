@@ -1,0 +1,3 @@
+osmid,oneway,ref,name,highway,maxspeed,reversed,length,geometry
+171309540,False,ZAC 144,Carretera Ojocaliente-Ojuelos de Jalisco,primary,80,True,834.292,"LINESTRING (-101.9377828 22.5409145, -101.9435474 22.5462011)"
+171309540,False,ZAC 144,Carretera Ojocaliente-Ojuelos de Jalisco,primary,80,False,834.292,"LINESTRING (-101.9435474 22.5462011, -101.9377828 22.5409145)"

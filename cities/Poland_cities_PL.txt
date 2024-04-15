@@ -1,0 +1,974 @@
+Skarszewy
+Kościerzyna
+Kartuzy
+Starogard Gdański
+Gdańsk
+Gdynia
+Chojnice
+Krosno Odrzańskie
+Słubice
+Szczecin
+Zielona Góra
+Poznań
+Wolin
+Kamień Pomorski
+Piaseczno
+Gliwice
+Tarnowskie Góry
+Chorzów
+Lublin
+Zgierz
+Piątek
+Łódź
+Tczew
+Człuchów
+Tuchola
+Władysławowo
+Jastarnia
+Łeba
+Hrubieszów
+Skarżysko-Kamienna
+Bydgoszcz
+Ustka
+Tychowo
+Trzebiatów
+Szczecinek
+Słupsk
+Sławno
+Polanów
+Mielno
+Miastko
+Koszalin
+Kępice
+Darłowo
+Czarne
+Biały Bór
+Białogard
+Węgorzewo
+Suwałki
+Sępopol
+Sejny
+Ryn
+Reszel
+Rajgród
+Pieniężno
+Orzysz
+Olecko
+Mrągowo
+Miłakowo
+Mikołajki
+Lidzbark Warmiński
+Korsze
+Kętrzyn
+Jeziorany
+Górowo Iławeckie
+Gołdap
+Giżycko
+Dobre Miasto
+Bisztynek
+Biskupiec
+Bartoszyce
+Barczewo
+Zalewo
+Wejherowo
+Tolkmicko
+Sztum
+Susz
+Sopot
+Skórcz
+Rumia
+Reda
+Puck
+Pruszcz Gdański
+Prabuty
+Pelplin
+Pasłęk
+Ostróda
+Nowy Staw
+Nowy Dwór Gdański
+Młynary
+Miłomłyn
+Lębork
+Kwidzyn
+Krynica Morska
+Gniew
+Frombork
+Elbląg
+Dzierzgoń
+Czersk
+Czarna Woda
+Brusy
+Zabłudów
+Wielbark
+Wasilków
+Tykocin
+Szczytno
+Supraśl
+Suchowola
+Stawiski
+Sokółka
+Pisz
+Ostrołęka
+Olsztynek
+Nowogród
+Nidzica
+Myszyniec
+Mońki
+Mława
+Michałowo
+Łomża
+Krynki
+Kolno
+Knyszyn
+Jedwabne
+Goniądz
+Działdowo
+Czarna Białostocka
+Chorzele
+Choroszcz
+Biała Piska
+Żuromin
+Złotów
+Wysoka
+Wyrzysk
+Wałcz
+Wąbrzeźno
+Tuczno
+Trzcianka
+Szubin
+Szamocin
+Świecie
+Borne Sulinowo
+Solec Kujawski
+Sępólno Krajeńskie
+Rypin
+Recz
+Pyrzyce
+Pełczyce
+Okonek
+Nowe Miasto Lubawskie
+Nakło nad Notecią
+Mrocza
+Mirosławiec
+Lubowidz
+Lubawa
+Łobżenica
+Łobez
+Łasin
+Krajenka
+Kowalewo Pomorskie
+Koronowo
+Kisielice
+Kamień Krajeński
+Kaczory
+Jastrowie
+Iława
+Gryfino
+Górzno
+Golub-Dobrzyń
+Drawno
+Debrzno
+Człopa
+Choszczno
+Chociwel
+Chełmża
+Chełmno
+Zambrów
+Wyszków
+Wysokie Mazowieckie
+Szepietowo
+Suraż
+Czyżew
+Sochocin
+Serock
+Różan
+Pułtusk
+Płońsk
+Ostrów Mazowiecka
+Nasielsk
+Zbąszynek
+Zbąszyń
+Zagórów
+Wolsztyn
+Wielichowo
+Turek
+Tuliszków
+Trzciel
+Torzym
+Świebodzin
+Sulęcin
+Sulechów
+Stęszew
+Śrem
+Sompolno
+Śmigiel
+Ślesin
+Rzepin
+Rychwał
+Pyzdry
+Puszczykowo
+Przedecz
+Pobiedziska
+Ośno Lubuskie
+Opalenica
+Nowy Tomyśl
+Miłosław
+Międzyrzecz
+Lwówek
+Książ Wielkopolski
+Kostrzyn
+Kościan
+Kórnik
+Kleczew
+Kargowa
+Izbica Kujawska
+Grodzisk Wielkopolski
+Golina
+Dąbie
+Czerniejewo
+Czempiń
+Cybinka
+Buk
+Babimost
+Zakroczym
+Ząbki
+Wyszogród
+Wiskitki
+Sochaczew
+Pruszków
+Ożarów Mazowiecki
+Otwock
+Nowy Dwór Mazowiecki
+Mrozy
+Mińsk Mazowiecki
+Milanówek
+Łomianki
+Legionowo
+Konstancin-Jeziorna
+Karczew
+Józefów
+Grodzisk Mazowiecki
+Dobre
+Czerwińsk nad Wisłą
+Brwinów
+Błonie
+Biała Podlaska
+Żychlin
+Sanniki
+Lubień Kujawski
+Łowicz
+Gostynin
+Gąbin
+Dąbrowice
+Chodecz
+Żmigród
+Złoczew
+Zgorzelec
+Zduńska Wola
+Zawidów
+Żary
+Żagań
+Wschowa
+Wołów
+Wołczyn
+Wleń
+Wieruszów
+Węgliniec
+Uniejów
+Twardogóra
+Trzebnica
+Szlichtyngowa
+Szadek
+Syców
+Świerzawa
+Stawiszyn
+Sieradz
+Siechnice
+Ścinawa
+Rychtal
+Rawicz
+Raszków
+Przemków
+Prusice
+Prochowice
+Praszka
+Poniec
+Pogorzela
+Poddębice
+Pleszew
+Pieńsk
+Ostrzeszów
+Ostrów Wielkopolski
+Osjaków
+Opatówek
+Odolanów
+Oborniki Śląskie
+Nowogród Bobrzański
+Nowe Skalmierzyce
+Namysłów
+Kępno
+Milicz
+Mikstat
+Miękinia
+Miejska Górka
+Lututów
+Lubsko
+Lubomierz
+Krotoszyn
+Jutrosin
+Jelcz-Laskowice
+Jawor
+Jaraczewo
+Iłowa
+Gubin
+Grabów nad Prosną
+Gozdnica
+Gorzów Śląski
+Działoszyn
+Chojnów
+Chocz
+Chocianów
+Bytom Odrzański
+Byczyna
+Brzeg Dolny
+Borek Wielkopolski
+Bojanowo
+Błaszki
+Bierutów
+Żarnów
+Wąchock
+Tomaszów Mazowiecki
+Tarczyn
+Suchedniów
+Stąporków
+Skierniewice
+Rawa Mazowiecka
+Radoszyce
+Radom
+Przytyk
+Poniatowa
+Pilawa
+Opole Lubelskie
+Opoczno
+Odrzywół
+Nowe Miasto nad Pilicą
+Nałęczów
+Mszczonów
+Lipsko
+Końskie
+Kazimierz Dolny
+Iłża
+Gowarczów
+Góra Kalwaria
+Gielniów
+Biała Rawska
+Białaczów
+Bełżyce
+Zelów
+Wolbórz
+Tuszyn
+Sulejów
+Rzgów
+Rozprza
+Radomsko
+Pabianice
+Lutomiersk
+Łask
+Konstantynów Łódzki
+Koluszki
+Kamieńsk
+Jeżów
+Głowno
+Aleksandrów Łódzki
+Wodzisław
+Tarnobrzeg
+Szydłów
+Stopnica
+Staszów
+Sokołów Małopolski
+Słomniki
+Skalbmierz
+Sędziszów Małopolski
+Sędziszów
+Sandomierz
+Ropczyce
+Przeworsk
+Proszowice
+Połaniec
+Pińczów
+Piekoszów
+Pacanów
+Ożarów
+Ostrowiec Świętokrzyski
+Opatów
+Oleszyce
+Nowy Korczyn
+Nowe Brzesko
+Nowa Słupia
+Nowa Sarzyna
+Nowa Dęba
+Niepołomice
+Morawica
+Mielec
+Miechów
+Małogoszcz
+Lubaczów
+Łopuszno
+Leżajsk
+Łaszczów
+Łańcut
+Kunów
+Książ Wielki
+Krasnobród
+Koprzywnica
+Kolbuszowa
+Klimontów
+Kazimierza Wielka
+Jędrzejów
+Iwaniska
+Głogów Małopolski
+Dębica
+Daleszyce
+Dąbrowa Tarnowska
+Ćmielów
+Cieszanów
+Busko-Zdrój
+Bodzentyn
+Baranów Sandomierski
+Zawiercie
+Żarki
+Włodowice
+Trzebinia
+Szczekociny
+Siewierz
+Siemianowice Śląskie
+Przyrów
+Oświęcim
+Olkusz
+Myszków
+Libiąż
+Krzeszowice
+Koniecpol
+Katowice
+Jaworzno
+Imielin
+Częstochowa
+Czeladź
+Chrzanów
+Bukowno
+Bieruń
+Będzin
+Alwernia
+Złoty Stok
+Zdzieszowice
+Zabrze
+Wiązów
+Wałbrzych
+Toszek
+Szklarska Poręba
+Polanica-Zdrój
+Świętochłowice
+Świeradów-Zdrój
+Świebodzice
+Świdnica
+Strzelin
+Strzeleczki
+Strzelce Opolskie
+Strzegom
+Stronie Śląskie
+Sośnicowice
+Ruda Śląska
+Ustroń
+Strumień
+Pszczyna
+Zakliczyn
+Zagórz
+Wojnicz
+Wieliczka
+Tyczyn
+Tuchów
+Szczawnica
+Strzyżów
+Stary Sącz
+Oborniki
+Olsztyn
+Wągrowiec
+Rzeszów
+Tarnów
+Maków Mazowiecki
+Sucha Beskidzka
+Piastów
+Brzostek
+Sanok
+Lesko
+Dukla
+Nowy Sącz
+Nowe Miasto
+Ciechanów
+Kluczbork
+Żnin
+Białystok
+Brzeziny
+Brodnica
+Kikół
+Jarosław
+Drzewica
+Barlinek
+Malbork
+Opole
+Lubliniec
+Swarzędz
+Nowy Targ
+Leszno
+Gniezno
+Bytom
+Bogatynia
+Sosnowiec
+Krasnystaw
+Limanowa
+Inowrocław
+Mogilno
+Skała
+Wolbrom
+Września
+Skoki
+Lędziny
+Ozorków
+Hajnówka
+Jelenia Góra
+Bochnia
+Łęczyca
+Ozimek
+Czarnków
+Świnoujście
+Bielsko-Biała
+Rybnik
+Konin
+Lubin
+Piła
+Chełm
+Przemyśl
+Zamość
+Kędzierzyn-Koźle
+Piekary Śląskie
+Ełk
+Starachowice
+Wodzisław Śląski
+Kutno
+Nysa
+Wronki
+Pniewy
+Międzyzdroje
+Dziwnów
+Szamotuły
+Chojna
+Wadowice
+Sułkowice
+Pyskowice
+Nowe Warpno
+Dobiegniew
+Rogoźno
+Budzyń
+Chodzież
+Ujście
+Zawadzkie
+Ujazd
+Oleśnica
+Żabno
+Krzyż Wielkopolski
+Knurów
+Kalwaria Zebrzydowska
+Skawina
+Myślenice
+Rabka-Zdrój
+Gołańcz
+Bielsk Podlaski
+Maków Podhalański
+Dolsk
+Brzesko
+Skwierzyna
+Bolków
+Ogrodzieniec
+Andrychów
+Kęty
+Jasień
+Gostyń
+Nowa Ruda
+Brody
+Margonin
+Zwierzyniec
+Żyrardów
+Raciąż
+Przasnysz
+Szczyrk
+Żywiec
+Sieraków
+Międzychód
+Świątniki Górne
+Bystrzyca Kłodzka
+Stepnica
+Jaworzyna Śląska
+Bieżuń
+Stryków
+Krynica-Zdrój
+Niemodlin
+Cedynia
+Kostrzyn nad Odrą
+Maszewo
+Dzierżoniów
+Witnica
+Muszyna
+Otmuchów
+Lądek-Zdrój
+Międzylesie
+Kłodzko
+Paczków
+Bardo
+Lewin Brzeski
+Olesno
+Nowy Wiśnicz
+Osieczna
+Łabiszyn
+Łęknica
+Murowana Goślina
+Radków
+Strzelno
+Mikołów
+Oława
+Cieszyn
+Rydułtowy
+Zator
+Chęciny
+Mieroszów
+Kudowa-Zdrój
+Radzymin
+Marki
+Kobyłka
+Sobótka
+Jadów
+Węgrów
+Grajewo
+Duszniki-Zdrój
+Szczytna
+Luboń
+Gorzów Wielkopolski
+Pilica
+Międzyrzec Podlaski
+Stoczek Łukowski
+Pszów
+Puławy
+Żelechów
+Czemierniki
+Ryki
+Lubartów
+Pruchnik
+Skoczów
+Mogielnica
+Warka
+Zwoleń
+Białobrzegi
+Pionki
+Jedlnia-Letnisko
+Góra
+Kamienna Góra
+Lubawka
+Narol
+Turobin
+Biłgoraj
+Bychawa
+Szczebrzeszyn
+Urzędów
+Kraśnik
+Rejowiec Fabryczny
+Janów Lubelski
+Tyszowce
+Nisko
+Rudnik nad Sanem
+Ulanów
+Annopol
+Radlin
+Lubań
+Olszyna
+Karpacz
+Ostroróg
+Obrzycko
+Rakoniewice
+Mieszkowice
+Dębno
+Suchań
+Brzeg
+Niemcza
+Wrocław
+Kowary
+Łagów
+Słupca
+Wieluń
+Radzionków
+Warszawa
+Grodków
+Orneta
+Halinów
+Czarny Dunajec
+Kleszczele
+Lipno
+Krzywiń
+Police
+Drezdenko
+Sierpc
+Skępe
+Kosów Lacki
+Wisła
+Kalety
+Drobin
+Kuźnia Raciborska
+Radymno
+Dynów
+Mszana Dolna
+Jordanów
+Dobczyce
+Kańczuga
+Sieniawa
+Hel
+Kruszwica
+Koziegłowy
+Dobra
+Koło
+Kietrz
+Głubczyce
+Zduny
+Koźmin Wielkopolski
+Trzemeszno
+Pakość
+Krapkowice
+Gogolin
+Krzanowice
+Kłecko
+Błażowa
+Głuchołazy
+Prudnik
+Głogówek
+Dobrodzień
+Krzepice
+Biała
+Kolonowskie
+Korfantów
+Blachownia
+Nekla
+Nowe
+Piechowice
+Polkowice
+Kowal
+Brześć Kujawski
+Aleksandrów Kujawski
+Ciechocinek
+Gniewkowo
+Barcin
+Pajęczno
+Miasteczko Śląskie
+Brańsk
+Łapy
+Kcynia
+Lubraniec
+Brok
+Baborów
+Kołaczyce
+Bielawa
+Tułowice
+Jedlicze
+Iwonicz-Zdrój
+Kobylin
+Leśnica
+Krośniewice
+Czchów
+Lidzbark
+Czerwieńsk
+Lubniewice
+Sława
+Chełmek
+Łaziska Górne
+Wilamowice
+Orzesze
+Czerwionka-Leszczyny
+Grybów
+Piwniczna-Zdrój
+Morąg
+Wojkowice
+Woźniki
+Prószków
+Janowiec Wielkopolski
+Rymanów
+Bircza
+Łochów
+Ruciane-Nida
+Piotrków Kujawski
+Janikowo
+Gąsawa
+Pieszyce
+Piława Górna
+Wąsosz
+Krobia
+Dobrzyca
+Piotrków Trybunalski
+Włoszczowa
+Żory
+Mysłowice
+Rydzyna
+Dąbrowa Górnicza
+Kołobrzeg
+Kłodawa
+Toruń
+Grudziądz
+Kalisz
+Włocławek
+Płock
+Tychy
+Augustów
+Dąbrowa Białostocka
+Połczyn-Zdrój
+Trzcińsko-Zdrój
+Bobolice
+Barwice
+Dobra
+Otyń
+Drawsko Pomorskie
+Złocieniec
+Kożuchów
+Głogów
+Goleniów
+Gryfice
+Gościno
+Golczewo
+Dobrzany
+Kalisz Pomorski
+Karlino
+Lipiany
+Małomice
+Nowogard
+Nowa Sól
+Nowe Miasteczko
+Ińsko
+Płoty
+Resko
+Świdwin
+Myślibórz
+Szprotawa
+Stargard
+Czaplinek
+Węgorzyno
+Bełchatów
+Biecz
+Gorlice
+Jasło
+Krosno
+Jedlina-Zdrój
+Szczawno-Zdrój
+Ząbkowice Śląskie
+Złotoryja
+Boguszów-Gorce
+Gryfów Śląski
+Kamieniec Ząbkowicki
+Kąty Wrocławskie
+Wojcieszów
+Ziębice
+Nowogrodziec
+Środa Śląska
+Głuszyca
+Bytów
+Sianów
+Żukowo
+Nieszawa
+Pasym
+Ciechanowiec
+Tomaszów Lubelski
+Braniewo
+Kraków
+Siemiatycze
+Łęczna
+Wieleń
+Zaklików
+Brzozów
+Szczuczyn
+Parczew
+Bobowa
+Boguchwała
+Brzeszcze
+Chmielnik
+Dęblin
+Frampol
+Glinojeck
+Grójec
+Jabłonowo Pomorskie
+Józefów
+Kałuszyn
+Koźminek
+Lipsk
+Międzybórz
+Osiek
+Ostrów Lubelski
+Piaski
+Pilzno
+Przedbórz
+Przysucha
+Radomyśl Wielki
+Radziejów
+Radzyń Chełmiński
+Radzyń Podlaski
+Siedlce
+Skaryszew
+Sokołów Podlaski
+Stalowa Wola
+Szydłowiec
+Sławków
+Tarnogród
+Terespol
+Tłuszcz
+Warta
+Wołomin
+Zakopane
+Zielonka
+Łaskarzew
+Łazy
+Łosice
+Łuków
+Świdnik
+Drohiczyn
+Garwolin
+Mordy
+Ciężkowice
+Czechowice-Dziedzice
+Modliborzyce
+Rejowiec
+Zawichost
+Bodzanów
+Dobrzyń nad Wisłą
+Mosina
+Oleśnica
+Przecław
+Radłów
+Szczucin
+Ryglice
+Moryń
+Żerków
+Lubycza Królewska
+Poręba
+Kozienice
+Kielce
+Jastrzębie-Zdrój
+Racibórz
+Bolesławiec
+Żarów
+Ujazd
+Ustrzyki Dolne
+Lwówek Śląski
+Środa Wielkopolska
+Witkowo
+Strzelce Krajeńskie
+Mirsk
+Jarocin
+Leśna
+Sulmierzyce
+Kłobuck
+Legnica
+Sulejówek
+Więcbork
+Kock

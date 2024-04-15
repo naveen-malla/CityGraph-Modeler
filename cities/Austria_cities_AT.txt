@@ -1,0 +1,214 @@
+Wien
+Purkersdorf
+Graz
+Linz
+Zell am See
+Wels
+Leoben
+Köflach
+Wiener Neustadt
+Mattersburg
+Eisenstadt
+Wörgl
+Kufstein
+Neulengbach
+Alland
+Hainfeld
+Stockerau
+Purbach am Neusiedler See
+Rust
+Puchberg am Schneeberg
+Orth an der Donau
+Melk
+Villach
+Klagenfurt
+Heiligenblut
+Gmunden
+Kirchdorf an der Krems
+Spittal an der Drau
+Feldkirch
+Bad Vöslau
+Baden
+Berndorf
+Innsbruck
+Oberpullendorf/Felsőpulya
+Mank
+Jennersdorf
+Gleisdorf
+Frohnleiten
+Bruck an der Mur
+Deutschlandsberg
+Kapfenberg
+Mürzzuschlag
+Mureck
+Salzburg
+Oberwart/Felsőőr
+Ried im Innkreis
+Seeboden
+Radenthein
+Millstatt
+Heidenreichstein
+Litschau
+Gmünd
+Neufeld an der Leitha
+Pregarten
+Waidhofen an der Thaya
+Weitra
+Zistersdorf
+Mistelbach
+Ernstbrunn
+Eggenburg
+Laa an der Thaya
+Horn
+Gallneukirchen
+Grein
+Perg
+Enns
+Hollabrunn
+Pöchlarn
+Strasshof an der Nordbahn
+Geras
+Tulln an der Donau
+Murau
+Herzogenburg
+Amstetten
+Scheibbs
+Neusiedl am See
+Waidhofen an der Ybbs
+Imst
+Telfs
+Landeck
+Dornbirn
+Haag
+Mittersill
+Pinkafeld
+Poysdorf
+Altheim
+Grieskirchen
+Ybbs an der Donau
+Gars am Kamp
+Traismauer
+Liezen
+Götzis
+Groß Gerungs
+Tamsweg
+Hermagor
+Völkermarkt
+Radstadt
+Judenburg
+Zeltweg
+Kindberg
+Frauenkirchen
+Lienz
+Schladming
+Braunau am Inn
+Jenbach
+Ternitz
+Rankweil
+Wieselburg
+Vils
+St. Pölten
+Wolkersdorf im Weinviertel
+Marchegg
+Retz
+Bad Radkersburg
+Sillian
+Steinach am Brenner
+Schrems
+Neumarkt am Wallersee
+Traiskirchen
+Gmünd
+Hartberg
+St. Valentin
+Straßburg
+Velden
+Fulpmes
+Litschau
+Fischamend
+Arnoldstein
+Reutte
+Zwettl
+Mödling
+Rottenmann
+Laakirchen
+Ansfelden
+Seekirchen am Wallersee
+Weiz
+Sankt Veit an der Glan
+Trofaiach
+Ferlach
+Sankt Johann im Pongau
+Pörtschach
+Kötschach
+Güssing
+Traun
+Lauterach
+Purgstall
+Hopfgarten im Brixental
+Sölden
+Bad Sankt Leonhard im Lavanttal
+Hohenems
+Steyr
+Gänserndorf
+Peuerbach
+Mayrhofen
+Neunkirchen
+Wilhelmsburg
+Finkenstein
+Freistadt
+Pressbaum
+Leonding
+Mannersdorf am Leithagebirge
+Hainburg an der Donau
+Eferding
+Ehrwald
+Steyregg
+Vöcklabruck
+Althofen
+Loosdorf
+Bludenz
+Ebreichsdorf
+Lustenau
+Pernitz
+Groß-Enzersdorf
+Bad Ischl
+Neustift im Stubaital
+Bad Hall
+Mattighofen
+Wattens
+Feldkirchen
+Matrei in Osttirol
+Wolfsberg
+Brixlegg
+Gloggnitz
+Sankt Johann im Pongau
+Pöllau
+Zell am Ziller
+Eisenerz
+Marchtrenk
+Sankt Andrä
+Gföhl
+Krems an der Donau
+Friesach
+Langenlois
+Bad Hofgastein
+Feistritz an der Drau
+Steinfeld
+Deutsch-Wagram
+Klosterneuburg
+Saalfelden am Steinernen Meer
+Oberndorf bei Salzburg
+Kitzbühel
+Bärnbach
+Bischofshofen
+Hall in Tirol
+Hallein
+Bregenz
+Bleiburg/Pliberk
+Schwaz
+Attnang-Puchheim
+Feldbach
+Rohrbach
+Gratwein-Straßengel
+Bad Aussee
+Knittelfeld

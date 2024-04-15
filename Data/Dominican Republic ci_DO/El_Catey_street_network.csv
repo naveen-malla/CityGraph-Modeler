@@ -1,0 +1,3 @@
+osmid,lanes,ref,name,highway,maxspeed,oneway,reversed,length,geometry
+275860121,1,RD-5,Nagua - Samaná,primary,80,False,False,42.212,"LINESTRING (-69.7104361 19.2542604, -69.7108359 19.2543011)"
+275860121,1,RD-5,Nagua - Samaná,primary,80,False,True,42.212,"LINESTRING (-69.7108359 19.2543011, -69.7104361 19.2542604)"

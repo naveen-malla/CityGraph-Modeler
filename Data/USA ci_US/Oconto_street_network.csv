@@ -1,0 +1,3 @@
+osmid,name,highway,oneway,reversed,length,geometry
+21526468,Britten Lane,residential,False,False,634.3530000000001,"LINESTRING (-88.246146 44.997186, -88.250099 44.997184, -88.2542124 44.9972515)"
+21526468,Britten Lane,residential,False,True,634.3530000000001,"LINESTRING (-88.2542124 44.9972515, -88.250099 44.997184, -88.246146 44.997186)"

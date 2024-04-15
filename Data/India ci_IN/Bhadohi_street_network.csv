@@ -1,0 +1,3 @@
+osmid,highway,oneway,reversed,length,geometry
+399025011,tertiary,False,True,141.052,"LINESTRING (82.4913647 25.4253933, 82.4900819 25.4259099)"
+399025011,tertiary,False,False,141.052,"LINESTRING (82.4900819 25.4259099, 82.4913647 25.4253933)"
