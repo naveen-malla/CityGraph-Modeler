@@ -1,10 +1,10 @@
 import os
 
 # Base directory containing the Cseq_Data folders with country Cseq files
-cseq_data_base_directory = 'Cseq_Data/'
+cseq_data_base_directory = 'Cseq_Data_Training/'
 
 # Path for the master Cseq file
-master_cseq_file_path = 'master_cseq.txt'
+master_cseq_file_path = 'training_cseq.txt'
 
 # Make sure the master Cseq file is empty before we start appending data
 with open(master_cseq_file_path, 'w') as master_file:
