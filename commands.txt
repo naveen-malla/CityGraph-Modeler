@@ -1,0 +1,2 @@
+python train.py config/train_gpt2.py  --compile=False
+
