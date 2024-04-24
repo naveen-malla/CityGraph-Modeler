@@ -1,0 +1,28 @@
+# Ignore editor and IDE files
+.vscode/
+.idea/
+
+# Ignore compiled binaries and libraries
+*.exe
+*.dll
+*.so
+
+# Ignore build output directories
+/bin/
+/build/
+/dist/
+
+# Ignore log files
+*.log
+
+# Ignore temporary files
+*.tmp
+*.swp
+*.bak
+
+# Ignore venv 
+/env/
+
+# Ignore cache files
+/cache/
+/__pycache__/
