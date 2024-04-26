@@ -26,3 +26,6 @@
 # Ignore cache files
 /cache/
 /__pycache__/
+
+# Ignore Mac default file
+.DS_Store
