@@ -6,7 +6,7 @@ import subprocess
 MAX_TOKENS = 1024  # Adjustable maximum token capacity of the GPT model
 
 # Define the root directory of the test data and the target output directory
-root_test_dir = 'Cseq_Data_Test'  # Replace with the actual path to your data
+root_test_dir = 'Cseq_Data_Test' 
 root_output_dir = 'Cseq_Predicted'
 
 def get_cseq_files(directory):
@@ -43,7 +43,7 @@ def predict_and_validate_coordinates(coordinates, max_new_tokens):
         return coord_pairs
         
     print("Coordinates Start Sequence: ", coordinates_str)
-    command = f"python sample.py --out_dir=out-osm-1024-20000 --start=\"{coordinates_str}\" --max_new_tokens={max_new_tokens}"
+    command = f"python nanoGPT/sample.py --out_dir=out-osm-1024-20000 --start=\"{coordinates_str}\" --max_new_tokens={max_new_tokens}"
     try:
         output = subprocess.check_output(command, shell=True, text=True)
         lines = output.split('\n')
