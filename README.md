@@ -1,21 +1,52 @@
 
+# Introduction
+
+
 
 # Data gathering
 
+Automate with docker:
+docker build -t rcs_data_extract -f Dockerfile.dataextract .
+docker run -v $(pwd):/app rcs_data_extract
+
+(or)
+
 # Flow to run
-** collect_cities.py: Collects the data from OpenStreetMap API and stores it in the cities folder
-** data_1sqkm_from_centre: Extracts data from the centroid of the city with a radius of 1sqkm
+** Countries.csv contains the list of countries for which the data is to be extracted
+** python collect_cities.py: Collects the data from OpenStreetMap API and stores it in the cities folder
+** python data_1sqkm_from_centre: Extracts data from the centroid of the city with a radius of 1sqkm
 
 # 0node 
 ** 0node.py: processes the street data, creates the graph and the master cseq file
 
-# node2vec in Python
-The node2vec part in this repository implements node2vec by Grover, Aditya and Leskovec, Jure. For details of the model, refer to their original [implementation](https://github.com/aditya-grover/node2vec/tree/master) and [their paper](https://arxiv.org/pdf/1607.00653).
 
-# How to run
-* Specify your arguments in `args.py`: you can change dataset and other arguments there
+
+# training transformer
+
+** the transformer implementation was derived from the following repository: https://github.com/karpathy/nanoGPT/tree/master?tab=readme-ov-file 
+** the transformer is trained on the cseq file containing the training data present in nanoGPT/data/osm/cseq.txt
+** the model was trained on a NVDIA A100 GPU with 40GB memory rented from a cloud service for 40 hours for 20000 iterations and with a context length of 1024
+** the loss obtained was ~0.4
 
 # Flow to run
+** install the dependecies: pip install torch numpy transformers datasets tiktoken wandb tqdm
+** prepare the data: python nanoGPT/data/osm/prepare_data.py
+** the configuration of the model is provided in nanoGPT/config/train_osm.py
+** train the model: python nanoGPT/train.py --config nanoGPT/config/train_osm.py
+** the weights are stored in nanoGPT/out-osm-1024-20000
+** get the cseq predictions: python get_cseq_predictions.py
+
+# Note
+** a docker file is not provided for the transformer training as it requires a GPU to train the model and to get the predictions and we do not have access to a GPU to test.
+
+# node2vec
+
+The node2vec part in this repository implements node2vec by Grover, Aditya and Leskovec, Jure. For details of the model, refer to their original [implementation](https://github.com/aditya-grover/node2vec/tree/master) and [their paper](https://arxiv.org/pdf/1607.00653).
+
+
+# Flow to run
+
+* Specify your arguments in `args.py`: you can change dataset and other arguments there
 * node2vec/Preprocessing:
 ** Create .edgelist with node2vec/Preprocessing/edgelist.py as input for node2vec model
 ** Create real adjacency matrix node2vec/Preprocessing/realadjmatrix.py for creating real map after
@@ -26,9 +57,13 @@ The node2vec part in this repository implements node2vec by Grover, Aditya and L
 ** With node2vec/plotncalculation/plotmap.py: take the Cseq_predicted and reconstructed adjacency matrix to create synthetic street network
 ** node2vec/plotncalculation/calculation.py: input (Cseq_test, real adjacency matrix) to calculate feature on real map, input (Cseq_predicted, reconstructed adjacency matrix) to calculate feature on synthetic map
 
-# Notes
+# Related data files
+* Real_admatrix data folder contains real adjacency matrix in format .csv.
+* Test_dataset_Emb data folder contains node embedding in format .emb.
+* Reconstructed_admatrix data folder contains reconstructed adjacency matrix in format .csv.
+
+# Note
 * Per-epoch training time is a bit slower than the original implementation.
-* In Real_admatrix data folder, it contains real adjacency matrix in format .csv.
-* In Test_dataset_Emb data folder, it contains node embedding in format .emb.
-* In Reconstructed_admatrix data folder, it contains reconstructed adjacency matrix in format .csv.
+
+
 * Feel free to report some inefficiencies in the code! (It's just initial version so may have much room for adjustment)
