@@ -1,0 +1,1 @@
+nanoGPT/out-osm-1024-20000/ckpt.pt filter=lfs diff=lfs merge=lfs -text
