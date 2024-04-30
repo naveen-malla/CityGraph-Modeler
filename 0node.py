@@ -6,7 +6,6 @@ import re
 import logging
 
 logging.basicConfig(level=logging.INFO)
-  
 
 def parse_linestring(linestring):
     # Extract coordinates from LINESTRING
@@ -15,7 +14,6 @@ def parse_linestring(linestring):
         return [tuple(map(float, coord.split())) for coord in coordinates[0].split(', ')]
     else:
         return []  # Return an empty list if no match is found
-
 
 def create_graph_from_linestrings(df):
     G = nx.Graph()
@@ -46,7 +44,6 @@ def create_node_feature_matrix(df):
     # Drop duplicate rows to ensure each node is unique
     node_features = node_features.drop_duplicates().reset_index(drop=True)
     return node_features
-
 
 
 def center_coordinates(node_features):
@@ -91,8 +88,6 @@ def order_and_flatten_nodes(node_features, cseq_file):
     # Flatten the sequence of coordinates
     Cseq = ordered_coords.values.flatten()
     print("Totoal Cseq: ", Cseq)
-    # Remove commas in between the numbers to make them only one space separated
-    #Cseq = [str(num).replace(',', ' ') for num in Cseq]
 
     with open(cseq_file, 'w') as file:
         file.write(' '.join(map(str, Cseq)) + '\n')
@@ -111,20 +106,12 @@ def create_adjacency_matrix(G):
 
     return adjacency_matrix
 
-def train_model(X, A):
-    # Code to train the model using node feature matrix X and adjacency matrix A
-    pass
-
-def generate_synthetic_network(model):
-    # Code to generate synthetic street networks using the trained model
-    pass
-
 # New base directory for Cseq data
-cseq_base_directory = 'Cseq_Data/'
+cseq_base_directory = 'Cseq_Data_Master/'
 os.makedirs(cseq_base_directory, exist_ok=True)  # Create base directory if it doesn't exist
 
 # Base directory containing the country folders with city CSVs
-base_directory = 'Data/'  
+base_directory = 'Street_Network_Data_Raw/'  
 
 # Iterate over each country folder
 for country_folder_name in os.listdir(base_directory):
@@ -170,14 +157,6 @@ for country_folder_name in os.listdir(base_directory):
             Cseq = order_and_flatten_nodes(X_quantized, cseq_file)            
             print("Length of Cseq of " + filename + ": ", len(Cseq))
             print("Cseq first 100: \n", Cseq[:100])
-            #print("Cseq last 100: \n", Cseq[-100:])
             # Create adjacency matrix
             A = create_adjacency_matrix(G)
-            #print(A)
-            # Train the model
-            # model = train_model(X, A)
-
-            # Generate synthetic network
-            # synthetic_network = generate_synthetic_network(model)
-
-            # Analysis and evaluation of the synthetic network goes here
+            
