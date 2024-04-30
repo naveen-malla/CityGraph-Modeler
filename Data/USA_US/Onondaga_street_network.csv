@@ -1,7 +1,0 @@
-osmid,lanes,name,highway,maxspeed,oneway,reversed,length,geometry
-675084202,2,Howlett Hill Road,tertiary,35 mph,False,False,345.355,"LINESTRING (-76.223045 43.012283, -76.227291 43.012199)"
-20139925,,Copperfield Road,residential,,False,False,81.76,"LINESTRING (-76.231552 43.012093, -76.231524 43.011358)"
-357006177,2,Howlett Hill Road,tertiary,35 mph,False,True,346.668,"LINESTRING (-76.231552 43.012093, -76.2307785 43.0121017, -76.230489 43.012105, -76.227291 43.012199)"
-20139925,,Copperfield Road,residential,,False,True,81.76,"LINESTRING (-76.231524 43.011358, -76.231552 43.012093)"
-675084202,2,Howlett Hill Road,tertiary,35 mph,False,True,345.355,"LINESTRING (-76.227291 43.012199, -76.223045 43.012283)"
-357006177,2,Howlett Hill Road,tertiary,35 mph,False,False,346.668,"LINESTRING (-76.227291 43.012199, -76.230489 43.012105, -76.2307785 43.0121017, -76.231552 43.012093)"

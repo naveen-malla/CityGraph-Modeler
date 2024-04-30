@@ -4,11 +4,11 @@ import networkx as nx
 import matplotlib.pyplot as plt
 
 # Step 1: Read node_list.csv to get node coordinates and connections
-node_list_file = "../../data/emb/Dresden_cseq.csv"
+node_list_file = "../../folder_path/city_name_cseq.csv"
 node_df = pd.read_csv(node_list_file)
 
 # Step 2: Read the trier_net.csv file to get the adjacency matrix
-trier_net_file = "../../data/emb/Dresden_street_network.csv"
+trier_net_file = "../../folder_path/city_name_street_network.csv"
 adj_matrix = np.loadtxt(trier_net_file, delimiter=',')
 
 # Step 3: Create a graph and add nodes and edges
@@ -37,7 +37,7 @@ if missing_positions:
         pos[node_id] = default_position
 
 nx.draw(G, pos, node_color='b', node_size=10, edge_color='k', with_labels=False)
-plt.title("Map of Trier")
+plt.title("Map of city name")
 plt.xlabel("Longitude")
 plt.ylabel("Latitude")
 plt.show()

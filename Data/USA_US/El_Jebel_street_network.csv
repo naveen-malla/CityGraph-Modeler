@@ -1,5 +1,0 @@
-osmid,name,highway,oneway,reversed,length,geometry
-17047271,Clark Drive,residential,False,False,41.705,"LINESTRING (-107.0900294 39.4006082, -107.089546 39.400642)"
-17047271,Clark Drive,residential,False,False,33.528,"LINESTRING (-107.089546 39.400642, -107.089158 39.400674)"
-17047271,Clark Drive,residential,False,True,41.705,"LINESTRING (-107.089546 39.400642, -107.0900294 39.4006082)"
-17047271,Clark Drive,residential,False,True,33.528,"LINESTRING (-107.089158 39.400674, -107.089546 39.400642)"

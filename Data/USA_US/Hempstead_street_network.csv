@@ -1,3 +1,0 @@
-osmid,name,highway,oneway,reversed,length,geometry
-12815956,Hempstead 15 Road,residential,False,False,26.141,"LINESTRING (-93.692654 33.69807, -93.692691 33.698241, -93.692715 33.698299)"
-12815956,Hempstead 15 Road,residential,False,True,26.141,"LINESTRING (-93.692715 33.698299, -93.692691 33.698241, -93.692654 33.69807)"

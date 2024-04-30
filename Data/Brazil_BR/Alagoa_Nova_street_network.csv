@@ -1,3 +1,0 @@
-osmid,ref,name,highway,oneway,reversed,length,geometry
-338211909,PB-097,Rodovia Agricultor Francisco de Assis Gondim,secondary,False,False,94.304,"LINESTRING (-35.7788309 -7.0606641, -35.7791233 -7.0606297, -35.7793432 -7.0606164, -35.7795431 -7.0606243, -35.7796812 -7.0606456)"
-338211909,PB-097,Rodovia Agricultor Francisco de Assis Gondim,secondary,False,True,94.304,"LINESTRING (-35.7796812 -7.0606456, -35.7795431 -7.0606243, -35.7793432 -7.0606164, -35.7791233 -7.0606297, -35.7788309 -7.0606641)"

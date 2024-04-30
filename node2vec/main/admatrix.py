@@ -37,7 +37,7 @@ def save_adjacency_matrix_to_file(adjacency_matrix, output_file):
     np.savetxt(output_file, adjacency_matrix, fmt='%d', delimiter=',')
 
 def main():
-    emb_folder = './emb/'
+    emb_folder = '../../data/emb/'
     threshold = 0.876  # Update with your chosen threshold
 
     for file_name in os.listdir(emb_folder):

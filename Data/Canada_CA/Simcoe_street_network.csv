@@ -1,5 +1,0 @@
-osmid,lanes,ref,name,highway,oneway,reversed,length,geometry
-407778352,2,CR 93,Penetanguishene Road,secondary,False,False,434.408,"LINESTRING (-79.7044954 44.50544, -79.7015582 44.5021424)"
-407778352,2,CR 93,Penetanguishene Road,secondary,False,True,434.408,"LINESTRING (-79.7015582 44.5021424, -79.7044954 44.50544)"
-411731032,,,Catharal Pines Road,residential,False,False,124.718,"LINESTRING (-79.7015582 44.5021424, -79.700186 44.5026903)"
-411731032,,,Catharal Pines Road,residential,False,True,124.718,"LINESTRING (-79.700186 44.5026903, -79.7015582 44.5021424)"

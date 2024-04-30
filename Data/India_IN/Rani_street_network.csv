@@ -1,3 +1,0 @@
-osmid,ref,highway,oneway,reversed,length,geometry
-179863909,MDR105,secondary,False,False,20.705,"LINESTRING (73.3084276 25.3455994, 73.3085765 25.3457281)"
-179863909,MDR105,secondary,False,True,20.705,"LINESTRING (73.3085765 25.3457281, 73.3084276 25.3455994)"

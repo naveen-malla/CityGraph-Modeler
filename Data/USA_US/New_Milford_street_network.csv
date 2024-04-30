@@ -1,5 +1,0 @@
-osmid,name,highway,oneway,reversed,length,geometry
-22067091,Macon Drive,residential,False,False,52.599,"LINESTRING (-89.0611943 42.176193, -89.060556 42.1761926)"
-22067091,Macon Drive,residential,False,False,43.926,"LINESTRING (-89.060556 42.1761926, -89.060023 42.176198)"
-22067091,Macon Drive,residential,False,True,52.599,"LINESTRING (-89.060556 42.1761926, -89.0611943 42.176193)"
-22067091,Macon Drive,residential,False,True,43.926,"LINESTRING (-89.060023 42.176198, -89.060556 42.1761926)"

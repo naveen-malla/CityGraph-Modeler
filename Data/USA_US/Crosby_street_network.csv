@@ -1,5 +1,0 @@
-osmid,name,highway,oneway,reversed,length,geometry
-20822967,County Road 196,residential,False,False,484.872,"LINESTRING (-101.284799 33.579489, -101.290033 33.579498)"
-20822967,County Road 196,residential,False,True,484.872,"LINESTRING (-101.290033 33.579498, -101.284799 33.579489)"
-20823251,County Road 183,residential,False,False,112.336,"LINESTRING (-101.290033 33.579498, -101.290114 33.580506)"
-20823251,County Road 183,residential,False,True,112.336,"LINESTRING (-101.290114 33.580506, -101.290033 33.579498)"

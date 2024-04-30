@@ -1,3 +1,0 @@
-osmid,lanes,name,highway,oneway,reversed,length,geometry
-100070646,2,Lake Doucette Road,residential,False,False,204.182,"LINESTRING (-66.1099109 44.0489096, -66.1087289 44.0492108, -66.1075282 44.0495703)"
-100070646,2,Lake Doucette Road,residential,False,True,204.182,"LINESTRING (-66.1075282 44.0495703, -66.1087289 44.0492108, -66.1099109 44.0489096)"

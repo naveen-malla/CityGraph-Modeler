@@ -1,5 +1,0 @@
-osmid,ref,name,highway,maxspeed,oneway,reversed,length,geometry
-199357962,B501,Andarawewa - Balaluwewa Road,secondary,60,False,False,262.613,"LINESTRING (80.4453139 8.0442441, 80.4439045 8.0444356, 80.4429618 8.0446284)"
-"[310894272, 199357962]","['B501', 'B326']","['Bulnewa - Madagalla Road', 'Andarawewa - Balaluwewa Road']",secondary,"['60', '50']",False,True,643.6370000000001,"LINESTRING (80.4453139 8.0442441, 80.4472347 8.0438922, 80.4471669 8.0425349, 80.4473725 8.04017, 80.4473418 8.0400523)"
-"[310894272, 199357962]","['B501', 'B326']","['Bulnewa - Madagalla Road', 'Andarawewa - Balaluwewa Road']",secondary,"['60', '50']",False,False,643.637,"LINESTRING (80.4473418 8.0400523, 80.4473725 8.04017, 80.4471669 8.0425349, 80.4472347 8.0438922, 80.4453139 8.0442441)"
-199357962,B501,Andarawewa - Balaluwewa Road,secondary,60,False,True,262.613,"LINESTRING (80.4429618 8.0446284, 80.4439045 8.0444356, 80.4453139 8.0442441)"

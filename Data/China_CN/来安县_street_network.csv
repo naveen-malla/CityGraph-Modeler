@@ -1,3 +1,0 @@
-osmid,bridge,oneway,lanes,ref,name,highway,maxspeed,reversed,length,geometry
-"[966588300, 966588303]",yes,True,2,S22,天天高速,motorway,120,False,256.903,"LINESTRING (118.4692976 32.4958234, 118.4692225 32.4953509, 118.4689337 32.4935335)"
-995645242,,True,,,,motorway_link,,False,392.737,"LINESTRING (118.4689337 32.4935335, 118.4686855 32.4925396, 118.4681101 32.4900706)"

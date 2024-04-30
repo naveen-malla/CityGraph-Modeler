@@ -95,8 +95,8 @@ def create_edgelist(G, node_mapping):
     return edgelist
 
 # Directory containing the CSV files
-directory = '/Users/0s/Downloads/RCS/Code/CityGraph-Modeler/extractdata/input/'
-directory1 = '/Users/0s/Downloads/RCS/Code/CityGraph-Modeler/extractdata/output/'
+directory = './foder_path/input/'
+directory1 = './foder_path/output/'
 
 # Iterate over each CSV file
 for filename in os.listdir(directory):

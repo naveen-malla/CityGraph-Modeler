@@ -1,5 +1,0 @@
-osmid,name,highway,oneway,reversed,length,geometry
-11181830,Picadilly Circle,residential,False,False,80.812,"LINESTRING (-81.6345265 28.329628, -81.6345284 28.3297358, -81.6346435 28.3303464)"
-11181830,Picadilly Circle,residential,False,False,79.148,"LINESTRING (-81.6346435 28.3303464, -81.6347558 28.3310513)"
-11181830,Picadilly Circle,residential,False,True,80.812,"LINESTRING (-81.6346435 28.3303464, -81.6345284 28.3297358, -81.6345265 28.329628)"
-11181830,Picadilly Circle,residential,False,True,79.148,"LINESTRING (-81.6347558 28.3310513, -81.6346435 28.3303464)"

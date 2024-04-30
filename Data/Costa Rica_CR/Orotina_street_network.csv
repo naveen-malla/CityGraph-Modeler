@@ -1,3 +1,0 @@
-osmid,name,highway,oneway,reversed,length,geometry
-1209509137,Calle Cebadilla,residential,False,True,10.861,"LINESTRING (-84.5963931 9.8900763, -84.5964344 9.8899875)"
-1209509137,Calle Cebadilla,residential,False,False,10.861,"LINESTRING (-84.5964344 9.8899875, -84.5963931 9.8900763)"
