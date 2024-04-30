@@ -16,7 +16,7 @@ def create_adjacency_matrix(G):
     return adjacency_matrix
 
 # Directory containing CSV files
-directory = '../../data/Germany_DE'
+directory = '../../data/Test_dataset'
 directory1 = '../../data/realadjmatrix/'
 
 # Create the output directory if it doesn't exist
