@@ -4,7 +4,10 @@
 
 # Flow to run
 ** collect_cities.py: Collects the data from OpenStreetMap API and stores it in the cities folder
-** data_1s
+** data_1sqkm_from_centre: Extracts data from the centroid of the city with a radius of 1sqkm
+
+# 0node 
+** 0node.py: processes the street data, creates the graph and the master cseq file
 
 # node2vec in Python
 The node2vec part in this repository implements node2vec by Grover, Aditya and Leskovec, Jure. For details of the model, refer to their original [implementation](https://github.com/aditya-grover/node2vec/tree/master) and [their paper](https://arxiv.org/pdf/1607.00653).
