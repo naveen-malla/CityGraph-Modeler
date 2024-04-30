@@ -55,8 +55,6 @@ The node2vec part in this repository implements node2vec by Grover, Aditya and L
 ** Create reconstructed adjacency matrix with node2vec/main/admatrix.py from input .emb 
 * node2vec/plotncalculation:
 
-### Files
-
 - **plotmap.py**: Uses Cseq_predicted and reconstructed adjacency matrix to create a synthetic street network.
 - **calculation.py**: Executes calculation of features from given input. Required input consists of files in two folders: `Cseq_predicted_subset` (Cseq_predicted) and `syn_admatrix_subset` (Syn_admatrix) to calculate for synthetic map OR `Cseq_test_subset` (Cseq_test) and `real_admatrix_subset` (Real_admatrix) for calculating features from a real map. All input files are in .csv format. Users can choose one of the following options for metric calculation:
   1. Average street length
