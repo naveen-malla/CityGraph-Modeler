@@ -5,7 +5,7 @@ from collections import defaultdict
 
 # Define the source and destination directories
 source_directory = 'Cseq_Data_Master/'
-duplicate_directory = 'Cseq_Data_Train/'
+duplicate_directory = 'Cseq_Data_Training/'
 test_directory = 'Cseq_Data_Test/'
 
 # Step 1: Create a complete copy of the original Cseq_Data directory
