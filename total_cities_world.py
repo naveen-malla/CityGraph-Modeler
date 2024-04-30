@@ -1,6 +1,8 @@
 import os
 
-folder_path = "cities"  # Replace with the actual path to the "cities" folder
+# this code counts the total cities in the world obtained from the Overpass API
+
+folder_path = "cities"  
 
 city_count = 0
 
