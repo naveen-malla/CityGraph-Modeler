@@ -1,61 +1,45 @@
 import os
 import pandas as pd
-import numpy as np
 import networkx as nx
-from scipy.spatial import ConvexHull
+import numpy as np
+import csv
 
 def calculate_average_street_length(G):
-    total_length = sum(nx.get_edge_attributes(G, 'length').values())
-    num_edges = len(G.edges)
-    if num_edges > 0:
-        return total_length / num_edges
-    else:
-        return 0
+    return sum(data['length'] for u, v, data in G.edges(data=True)) / G.number_of_edges()
 
 def calculate_avg_edge_per_node(G):
-    if len(G.nodes) > 0:
-        return len(G.edges) / len(G.nodes)
-    else:
-        return 0
+    return G.number_of_edges() / G.number_of_nodes()
 
 def calculate_circuity(G):
-    total_network_distance = sum(nx.all_pairs_dijkstra_path_length(G).values())
-    total_euclidean_distance = 0
-    for u, v, data in G.edges(data=True):
-        total_euclidean_distance += np.sqrt((G.nodes[u]['pos'][0] - G.nodes[v]['pos'][0])**2 + 
-                                            (G.nodes[u]['pos'][1] - G.nodes[v]['pos'][1])**2)
-    if total_euclidean_distance > 0:
-        return total_network_distance / total_euclidean_distance
-    else:
-        return 0
+    total_length = sum(data['length'] for u, v, data in G.edges(data=True))
+    total_nodes = G.number_of_nodes()
+    degrees = dict(G.degree())
+    sum_degrees = sum(degrees.values())
+    return total_length / (total_nodes * (total_nodes - 1) / 2)
 
 def calculate_avg_form_factor(G):
-    if len(G.nodes) == 0:
-        return 0
-    else:
-        areas = []
-        for component in nx.connected_components(G):
-            node_positions = np.array([G.nodes[node]['pos'] for node in component])
-            hull = ConvexHull(node_positions)
-            areas.append(hull.volume)
-        return sum(areas) / len(G.nodes)
+    perimeters = calculate_avg_perimeter(G)
+    areas = calculate_avg_area(G)
+    return perimeters / areas
+
+def calculate_avg_perimeter(G):
+     return sum(data['length'] for u, v, data in G.edges(data=True))
+
+def calculate_avg_area(G):
+    perimeters = calculate_avg_perimeter(G)
+    total_nodes = G.number_of_nodes()
+    degrees = dict(G.degree())
+    total_degree = sum(degrees.values())
+    return (4 * perimeters + 2 * np.sqrt(total_degree * (total_degree - 3))) / 2
 
 def calculate_avg_block_size(G):
-    if len(G.nodes) == 0:
-        return 0
-    else:
-        return sum([nx.node_connectivity(G, node) for node in G.nodes]) / len(G.nodes)
+    node_sizes = nx.get_node_attributes(G, 'blockSize')
+    return sum(node_sizes.values()) / G.number_of_nodes()
 
 def calculate_avg_compactness(G):
-    if len(G.nodes) == 0:
-        return 0
-    else:
-        compactness_values = []
-        for component in nx.connected_components(G):
-            node_positions = np.array([G.nodes[node]['pos'] for node in component])
-            hull = ConvexHull(node_positions)
-            compactness_values.append((hull.area**2) / (4 * np.pi * hull.volume))
-        return sum(compactness_values) / len(G.nodes)
+    areas = calculate_avg_area(G)
+    perimeters = calculate_avg_perimeter(G)
+    return areas / (perimeters**2)
 
 def process_files(folder_path, option):
     results = {}
@@ -78,66 +62,60 @@ def process_files(folder_path, option):
                 # Add nodes with positions
                 for _, row in node_df.iterrows():
                     node_id = int(row['nodeId'])
-                    G.add_node(node_id, pos=(row['Y'], row['X']))
+                    G.add_node(node_id, pos=(row['X'], row['Y']))
 
                 # Add edges with lengths from adjacency matrix
                 for i in range(len(adj_matrix)):
-                    for j in range(len(adj_matrix[i])):
+                    for j in range(i+1, len(adj_matrix)):
                         if adj_matrix[i][j] == 1:
-                            node1 = node_df.loc[i]
-                            node2 = node_df.loc[j]
-                            length = np.sqrt((node1['X'] - node2['X'])**2 + (node1['Y'] - node2['Y'])**2)  # Euclidean distance
-                            G.add_edge(i, j, length=length)
+                            G.add_edge(i, j, length=1)
+                            G.add_edge(j, i, length=1)
 
-                # Perform chosen calculation
-                if option == '1':
-                    result = calculate_average_street_length(G)
-                    results[city_name] = result
-                elif option == '2':
-                    result = calculate_avg_edge_per_node(G)
-                    results[city_name] = result
-                elif option == '3':
-                    result = calculate_circuity(G)
-                    results[city_name] = result
-                elif option == '4':
-                    result = calculate_avg_form_factor(G)
-                    results[city_name] = result
-                elif option == '5':
-                    result = calculate_avg_block_size(G)
-                    results[city_name] = result
-                elif option == '6':
-                    result = calculate_avg_compactness(G)
-                    results[city_name] = result
-
+                if option == 1:
+                    # Calculate average street length
+                    average_street_length = calculate_average_street_length(G)
+                    results[city_name] = average_street_length
+                elif option == 2:
+                    # Calculate average number of edges per node
+                    avg_edge_per_node = calculate_avg_edge_per_node(G)
+                    results[city_name] = avg_edge_per_node
+                elif option == 3:
+                    # Calculate average circuitity
+                    circuitity = calculate_circuity(G)
+                    results[city_name] = circuitity
+                elif option == 4:
+                    # Calculate average form factor
+                    form_factor = calculate_avg_form_factor(G)
+                    results[city_name] = form_factor
+                elif option == 5:
+                    # Calculate average block size
+                    block_size = calculate_avg_block_size(G)
+                    results[city_name] = block_size
+                elif option == 6:
+                    # Calculate average compactness
+                    compactness = calculate_avg_compactness(G)
+                    results[city_name] = compactness
+                else:
+                    print("Invalid option. Please try again.")
             except Exception as e:
-                print(f"Error processing {file_name}: {e}")
+                print(f"Error processing file {file_name}: {e}")
 
     return results
 
 def main():
-    folder_path = "../../data/real_map/"
-    option = input("Choose an option:\n"
-                   "1. Calculate average street length\n"
-                   "2. Calculate average edge per node\n"
-                   "3. Calculate circuity\n"
-                   "4. Calculate average form factor\n"
-                   "5. Calculate average block size\n"
-                   "6. Calculate average compactness\n"
-                   "Option: ")
+    folder_path = "/real_map/"
+    option = int(input("Enter the option you want to calculate: "))
+    results = process_files(folder_path, option)
 
-    if option in ['1', '2', '3', '4', '5', '6']:
-        results = process_files(folder_path, option)
-        output_file = f"result_option_{option}.csv"
+    output_file = f"results_{option}.csv"
+    fieldnames = ['City', 'Result']
 
-        if results:
-            df = pd.DataFrame(list(results.items()), columns=['City', 'Value'])
-            df.to_csv(output_file, index=False)
-            print(f"Results saved to {output_file}")
-        else:
-            print("No data to process.")
-
-    else:
-        print("Invalid option.")
+    with open(output_file, 'w', newline='') as csvfile:
+        writer = csv.DictWriter(csvfile, fieldnames=fieldnames)
+        writer.writeheader()
+        for city, result in results.items():
+            writer.writerow({'City': city, 'Result': result})
+        print(f"Results saved to {output_file}")
 
 if __name__ == "__main__":
     main()
