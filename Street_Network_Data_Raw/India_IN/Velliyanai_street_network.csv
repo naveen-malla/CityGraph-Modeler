@@ -1,0 +1,5 @@
+osmid,ref,name,highway,oneway,reversed,length,geometry
+22837161,SH74,Dindigul - Gujiliamparai - Karur Road,primary,False,False,114.284,"LINESTRING (78.1199011 10.8460772, 78.1197856 10.8470987)"
+67679090,,,tertiary,False,True,120.739,"LINESTRING (78.1199011 10.8460772, 78.1209942 10.8462399)"
+67679090,,,tertiary,False,False,120.739,"LINESTRING (78.1209942 10.8462399, 78.1199011 10.8460772)"
+22837161,SH74,Dindigul - Gujiliamparai - Karur Road,primary,False,True,114.284,"LINESTRING (78.1197856 10.8470987, 78.1199011 10.8460772)"

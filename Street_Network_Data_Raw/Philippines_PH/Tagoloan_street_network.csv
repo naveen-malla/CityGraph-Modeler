@@ -1,0 +1,5 @@
+osmid,name,highway,oneway,reversed,length,geometry
+853646967,Lanao del Norte Interior Circumferential Road,primary,False,True,75.689,"LINESTRING (124.2758927 8.1269049, 124.2761249 8.1262642)"
+853614603,,residential,False,True,152.243,"LINESTRING (124.277447 8.126666, 124.2769656 8.1265146, 124.2761249 8.1262642)"
+853646967,Lanao del Norte Interior Circumferential Road,primary,False,False,75.689,"LINESTRING (124.2761249 8.1262642, 124.2758927 8.1269049)"
+853614603,,residential,False,False,152.243,"LINESTRING (124.2761249 8.1262642, 124.2769656 8.1265146, 124.277447 8.126666)"

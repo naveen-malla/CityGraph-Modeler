@@ -1,0 +1,3 @@
+osmid,highway,oneway,reversed,length,geometry
+992945885,tertiary,False,False,41.873,"LINESTRING (-97.0414283 19.000355, -97.0416613 19.0000496)"
+992945885,tertiary,False,True,41.873,"LINESTRING (-97.0416613 19.0000496, -97.0414283 19.000355)"

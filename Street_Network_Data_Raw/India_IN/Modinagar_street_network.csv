@@ -1,0 +1,3 @@
+osmid,highway,oneway,reversed,length,geometry
+1066620231,residential,False,False,30.259,"LINESTRING (77.5440284 28.8207995, 77.544276 28.8206352)"
+1066620231,residential,False,True,30.259,"LINESTRING (77.544276 28.8206352, 77.5440284 28.8207995)"

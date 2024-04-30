@@ -1,0 +1,5 @@
+osmid,ref,name,highway,oneway,reversed,length,geometry
+9902909,CR 10,233A Street,tertiary,False,False,150.615,"LINESTRING (-96.668734 44.000423, -96.670617 44.000422)"
+9905080,,477th Avenue,residential,False,False,77.615,"LINESTRING (-96.668734 44.000423, -96.668737 44.001121)"
+9902909,CR 10,233A Street,tertiary,False,True,150.615,"LINESTRING (-96.670617 44.000422, -96.668734 44.000423)"
+9905080,,477th Avenue,residential,False,True,77.615,"LINESTRING (-96.668737 44.001121, -96.668734 44.000423)"

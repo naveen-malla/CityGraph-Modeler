@@ -1,0 +1,3 @@
+osmid,name,highway,oneway,reversed,length,geometry
+912598535,Township Highway 555,residential,False,False,26.721,"LINESTRING (-82.2310771 40.7846597, -82.2310744 40.7849)"
+912598535,Township Highway 555,residential,False,True,26.721,"LINESTRING (-82.2310744 40.7849, -82.2310771 40.7846597)"

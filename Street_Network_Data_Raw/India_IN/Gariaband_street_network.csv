@@ -1,0 +1,3 @@
+osmid,highway,oneway,reversed,length,geometry
+1092624545,unclassified,False,False,60.846,"LINESTRING (82.0621973 20.6330703, 82.061794 20.6326741)"
+1092624545,unclassified,False,True,60.846,"LINESTRING (82.061794 20.6326741, 82.0621973 20.6330703)"

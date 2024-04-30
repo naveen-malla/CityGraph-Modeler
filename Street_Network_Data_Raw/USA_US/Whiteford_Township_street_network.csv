@@ -1,0 +1,3 @@
+osmid,name,highway,oneway,reversed,length,geometry
+17901977,Sylvania-Petersburg Road,unclassified,False,True,841.277,"LINESTRING (-83.705446 41.776063, -83.705276 41.772487, -83.705227 41.770646, -83.705132 41.768501)"
+17901977,Sylvania-Petersburg Road,unclassified,False,False,841.277,"LINESTRING (-83.705132 41.768501, -83.705227 41.770646, -83.705276 41.772487, -83.705446 41.776063)"

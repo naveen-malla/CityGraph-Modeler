@@ -1,0 +1,3 @@
+osmid,ref,name,highway,oneway,reversed,length,geometry
+166024355,SH,Bheemunipatnam - Narsipatnam Road,primary,False,False,258.421,"LINESTRING (83.0944025 17.7925115, 83.0961146 17.7921566, 83.0967869 17.7920149)"
+166024355,SH,Bheemunipatnam - Narsipatnam Road,primary,False,True,258.421,"LINESTRING (83.0967869 17.7920149, 83.0961146 17.7921566, 83.0944025 17.7925115)"

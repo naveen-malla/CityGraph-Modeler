@@ -1,0 +1,3 @@
+osmid,name,highway,oneway,reversed,length,geometry
+392655286,市府路,tertiary,False,False,9.302,"LINESTRING (117.0521438 30.5263103, 117.0520467 30.5263119)"
+392655286,市府路,tertiary,False,True,9.302,"LINESTRING (117.0520467 30.5263119, 117.0521438 30.5263103)"

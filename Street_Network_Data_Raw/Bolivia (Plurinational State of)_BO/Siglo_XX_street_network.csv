@@ -1,0 +1,3 @@
+osmid,oneway,lanes,ref,name,highway,maxspeed,reversed,length,geometry
+313851910,False,2,F8,RN8: El Triangulo-Riberalta,trunk,80,False,243.49200000000002,"LINESTRING (-66.0908152 -11.1151984, -66.0903544 -11.1145902, -66.0894837 -11.1134411)"
+313851910,False,2,F8,RN8: El Triangulo-Riberalta,trunk,80,True,243.49200000000002,"LINESTRING (-66.0894837 -11.1134411, -66.0903544 -11.1145902, -66.0908152 -11.1151984)"
