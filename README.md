@@ -56,16 +56,16 @@ The node2vec part in this repository implements node2vec by Grover, Aditya and L
 * node2vec/plotncalculation:
 ** With node2vec/plotncalculation/plotmap.py: take the Cseq_predicted and reconstructed adjacency matrix to create synthetic street network
 ** node2vec/plotncalculation/calculation.py: Execute calculation.py to calculate the features from given input. Required input consists of files in 2 folders: Cseq_predicted_subset (Cseq_predicted) and syn_admatrix_subset (Syn_admatrix) to calculate for synthetic map
-** OR
-** Cseq_test_subset(Cseq_test) and real_admatrix_subset(Real_admatrix) for calculate features from real map
-** All input files are in .csv format
-** User can choose one of these given options for the metric calculation: 
-** 1. average street length
-** 2. average edges per node
-** 3. average circuity
-** 4. average form factor
-** 5. average block size
-** 6. average compactness
+*** OR
+*** Cseq_test_subset(Cseq_test) and real_admatrix_subset(Real_admatrix) for calculate features from real map
+*** All input files are in .csv format
+*** User can choose one of these given options for the metric calculation: 
+*** 1. average street length
+*** 2. average edges per node
+*** 3. average circuity
+*** 4. average form factor
+*** 5. average block size
+*** 6. average compactness
 ** node2vec/plotncalculation/filter.py: Given pair of synthetic and real features result and sync so that both files have same pair of cities
 ** node2vec/plotncalculation/removespace.py: Excecute this file to create correct format for input file to run in plotchart.py
 ** node2vec/plotncalculation/plotchart.py: Plot the result from synthetic and real features files
