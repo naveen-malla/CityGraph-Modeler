@@ -1,5 +1,0 @@
-osmid,name,highway,oneway,reversed,length,geometry
-21299999,Cochran Road,residential,False,False,175.937,"LINESTRING (-95.9939513 29.942639, -95.9939888 29.9410571)"
-21299999,Cochran Road,residential,False,True,396.87,"LINESTRING (-95.9939513 29.942639, -95.994004 29.9441426, -95.994072 29.9462066)"
-21299999,Cochran Road,residential,False,False,396.87,"LINESTRING (-95.994072 29.9462066, -95.994004 29.9441426, -95.9939513 29.942639)"
-21299999,Cochran Road,residential,False,True,175.937,"LINESTRING (-95.9939888 29.9410571, -95.9939513 29.942639)"

@@ -1,3 +1,0 @@
-osmid,name,highway,oneway,reversed,length,geometry
-"[13232774, 642694495]","['Balta Lane', '188th Street']","['residential', 'unclassified']",False,True,1056.387,"LINESTRING (-98.7988486 38.90003, -98.7989773 38.8928322, -98.7960199 38.8928288)"
-"[13232774, 642694495]","['Balta Lane', '188th Street']","['unclassified', 'residential']",False,False,1056.387,"LINESTRING (-98.7960199 38.8928288, -98.7989773 38.8928322, -98.7988486 38.90003)"

@@ -1,5 +1,0 @@
-osmid,name,highway,oneway,reversed,length,geometry
-16338281,Brittany Lane,residential,False,False,61.535,"LINESTRING (-83.820393 37.817972, -83.821064 37.818131)"
-16338283,Brittany Lane,residential,False,True,69.649,"LINESTRING (-83.820393 37.817972, -83.820718 37.817745, -83.821071 37.817693)"
-16338281,Brittany Lane,residential,False,True,61.535,"LINESTRING (-83.821064 37.818131, -83.820393 37.817972)"
-16338283,Brittany Lane,residential,False,False,69.649,"LINESTRING (-83.821071 37.817693, -83.820718 37.817745, -83.820393 37.817972)"

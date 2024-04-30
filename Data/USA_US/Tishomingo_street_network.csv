@@ -1,3 +1,0 @@
-osmid,name,highway,oneway,reversed,length,geometry
-13972655,County Road 144,residential,False,False,330.919,"LINESTRING (-88.228401 34.724313, -88.2247835 34.7244418)"
-13972655,County Road 144,residential,False,True,330.919,"LINESTRING (-88.2247835 34.7244418, -88.228401 34.724313)"

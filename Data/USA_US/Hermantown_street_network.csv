@@ -1,5 +1,0 @@
-osmid,name,highway,oneway,reversed,length,geometry
-444208691,Ugstad Road,tertiary,False,False,204.202,"LINESTRING (-92.2383209 46.8076132, -92.2383049 46.8057768)"
-18247147,Sunnyview Road,residential,False,False,377.745,"LINESTRING (-92.2383049 46.8057768, -92.243268 46.8057643)"
-444208691,Ugstad Road,tertiary,False,True,204.202,"LINESTRING (-92.2383049 46.8057768, -92.2383209 46.8076132)"
-18247147,Sunnyview Road,residential,False,True,377.745,"LINESTRING (-92.243268 46.8057643, -92.2383049 46.8057768)"

@@ -1,3 +1,0 @@
-osmid,lanes,name,highway,oneway,reversed,length,geometry
-31077775,2,Range Road 41,unclassified,False,False,89.274,"LINESTRING (-114.4767218 54.1660667, -114.4767956 54.1668684)"
-31077775,2,Range Road 41,unclassified,False,True,89.274,"LINESTRING (-114.4767956 54.1668684, -114.4767218 54.1660667)"

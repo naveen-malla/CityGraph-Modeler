@@ -1,5 +1,0 @@
-osmid,highway,oneway,reversed,length,name,geometry
-717832787,residential,False,False,39.555,,"LINESTRING (34.8044845 49.694121, 34.8043066 49.6944576)"
-909924701,residential,False,False,315.923,Центральна вулиця,"LINESTRING (34.8044845 49.694121, 34.8003069 49.6932439)"
-717832787,residential,False,True,39.555,,"LINESTRING (34.8043066 49.6944576, 34.8044845 49.694121)"
-909924701,residential,False,True,315.923,Центральна вулиця,"LINESTRING (34.8003069 49.6932439, 34.8044845 49.694121)"

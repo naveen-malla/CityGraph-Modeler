@@ -1,7 +1,0 @@
-osmid,ref,name,highway,maxspeed,oneway,reversed,length,geometry
-166999305,AA026,Kandy - Mahiyanganaya- Padiyathalawa Road,trunk,60,False,True,59.651,"LINESTRING (80.8783603 7.3187973, 80.8788335 7.3185375)"
-166999305,AA026,Kandy - Mahiyanganaya- Padiyathalawa Road,trunk,60,False,False,19.678,"LINESTRING (80.8783603 7.3187973, 80.878293 7.3188205, 80.878188 7.3188418)"
-166999305,AA026,Kandy - Mahiyanganaya- Padiyathalawa Road,trunk,60,False,False,36.64,"LINESTRING (80.878188 7.3188418, 80.8779808 7.3188877, 80.8778615 7.3188997)"
-166999305,AA026,Kandy - Mahiyanganaya- Padiyathalawa Road,trunk,60,False,True,19.678,"LINESTRING (80.878188 7.3188418, 80.878293 7.3188205, 80.8783603 7.3187973)"
-166999305,AA026,Kandy - Mahiyanganaya- Padiyathalawa Road,trunk,60,False,True,36.64,"LINESTRING (80.8778615 7.3188997, 80.8779808 7.3188877, 80.878188 7.3188418)"
-166999305,AA026,Kandy - Mahiyanganaya- Padiyathalawa Road,trunk,60,False,False,59.651,"LINESTRING (80.8788335 7.3185375, 80.8783603 7.3187973)"
