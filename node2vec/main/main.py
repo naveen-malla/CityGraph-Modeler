@@ -9,15 +9,15 @@ def parse_args():
     Parses the node2vec arguments.
     '''
     parser = argparse.ArgumentParser(description="Run node2vec.")
-    parser.add_argument('--input-dir', nargs='?', default='../../data/graph/',
-                        help='Input directory path containing .edgelist files')
-    parser.add_argument('--output-dir', nargs='?', default='../../data/emb/',
-                        help='Output directory path for embeddings')
+    parser.add_argument('--input-root-dir', nargs='?', default='Test_dataset_Edgelist/',
+                        help='Input root directory path containing country folders with .edgelist files')
+    parser.add_argument('--output-root-dir', nargs='?', default='Test_dataset_Emb/',
+                        help='Output root directory path for country folders with embeddings')
     parser.add_argument('--dimensions', type=int, default=128,
                         help='Number of dimensions. Default is 128.')
     parser.add_argument('--walk-length', type=int, default=50,
                         help='Length of walk per source. Default is 80.')
-    parser.add_argument('--num-walks', type=int, default=50,
+    parser.add_argument('--num-walks', type=int, default=20,
                         help='Number of walks per source. Default is 10.')
     parser.add_argument('--window-size', type=int, default=5,
                         help='Context size for optimization. Default is 10.')
@@ -74,6 +74,42 @@ def main(args):
             print(f'Processing {input_file}...')
             process_graph(input_file, output_file, args)
             print(f'Embeddings saved to {output_file}')
+
+
+def main(args):
+    '''
+    Iterate through all country folders and .edgelist files within each folder, and process each graph.
+    '''
+    # Create the output root directory if it doesn't exist
+    if not os.path.exists(args.output_root_dir):
+        os.makedirs(args.output_root_dir)
+
+    # Iterate over each country directory in the input root directory
+    for country_dir in os.listdir(args.input_root_dir):
+        country_input_path = os.path.join(args.input_root_dir, country_dir)
+        country_output_path = os.path.join(args.output_root_dir, country_dir + '_Emb')
+
+        # Create the country's output directory if it doesn't exist
+        if not os.path.exists(country_output_path):
+            os.makedirs(country_output_path)
+
+        # Iterate over each .edgelist file in the country's input directory
+        if os.path.isdir(country_input_path):
+            for filename in os.listdir(country_input_path):
+                if filename.endswith(".edgelist"):
+                    try:
+                        input_file = os.path.join(country_input_path, filename)
+                        output_file = os.path.join(country_output_path, filename.replace('.edgelist', '.emb'))
+                        print(f'Processing {input_file}...')
+                        process_graph(input_file, output_file, args)
+                        print(f'Embeddings saved to {output_file}')
+                    except Exception as e:
+                        print(f"Error processing {filename}: {e}. Skipping this file.")
+
+if __name__ == "__main__":
+    args = parse_args()
+    main(args)
+
 
 if __name__ == "__main__":
     args = parse_args()

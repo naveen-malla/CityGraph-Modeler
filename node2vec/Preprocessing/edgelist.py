@@ -95,44 +95,56 @@ def create_edgelist(G, node_mapping):
     return edgelist
 
 # Directory containing the CSV files
-directory = './foder_path/input/'
-directory1 = './foder_path/output/'
+root_directory = 'Test_dataset/'
+root_output_directory = 'Test_dataset_Edgelist/'
 
-# Iterate over each CSV file
-for filename in os.listdir(directory):
-    if filename.endswith(".csv"):
-        filepath = os.path.join(directory, filename)
-        df = pd.read_csv(filepath)
-        
-        # Create graph from linestrings
-        G = create_graph_from_linestrings(df)
+if not os.path.exists(root_output_directory):
+        os.makedirs(root_output_directory)
+    
+# Iterate over each country in the Test_Dataset directory
+for country in os.listdir(root_directory):
+    country_path = os.path.join(root_directory, country)
+    if os.path.isdir(country_path):  # Ensure it's a directory
+        # Create a specific output directory for each country if it does not exist
+        country_output_directory = os.path.join(root_output_directory, country)
+        if not os.path.exists(country_output_directory):
+            os.makedirs(country_output_directory)
 
-        # Create node feature matrix
-        X = create_node_feature_matrix(df)
-        Cseq = order_and_flatten_nodes(X)
-        X_centered = center_coordinates(X)
-        X_normalized = normalize_coordinates(X_centered)
-        X_quantized = quantize_coordinates(X_normalized)
+        # Iterate over each CSV file in the country directory
+        for filename in os.listdir(country_path):
+            if filename.endswith(".csv"):
+                filepath = os.path.join(country_path, filename)
+                df = pd.read_csv(filepath)
+            
+            # Create graph from linestrings
+            G = create_graph_from_linestrings(df)
+    
+            # Create node feature matrix
+            X = create_node_feature_matrix(df)
+            Cseq = order_and_flatten_nodes(X)
+            X_centered = center_coordinates(X)
+            X_normalized = normalize_coordinates(X_centered)
+            X_quantized = quantize_coordinates(X_normalized)
+    
+            # Create a mapping from quantized coordinates to node IDs
+            node_mapping = {(row['latitude'], row['longitude']): node_id for node_id, (_, row) in enumerate(X_quantized.iterrows())}
+    
+            # Create c_sequence DataFrame
+            # c_sequence_df = create_c_sequence(X_quantized, node_mapping)
+    
+            # Save c_sequence DataFrame to a CSV file
+            # c_sequence_filename = os.path.join(root_output_directory, f'{filename[:-4]}_c_sequence.csv')
+            # c_sequence_df.to_csv(c_sequence_filename, index=False)
+    
+            # print(f"c_sequence.csv file saved successfully for {filename}.")
+    
+            # Create edgelist
+            edgelist = create_edgelist(G, node_mapping)
+    
+            # Save edgelist to a file in the country's output directory
+            edgelist_filename = os.path.join(country_output_directory, f'{filename[:-4]}.edgelist')
+            with open(edgelist_filename, 'w') as f:
+                for edge in edgelist:
+                    f.write(f"{edge[0]} {edge[1]}\n")
 
-        # Create a mapping from quantized coordinates to node IDs
-        node_mapping = {(row['latitude'], row['longitude']): node_id for node_id, (_, row) in enumerate(X_quantized.iterrows())}
-
-        # Create c_sequence DataFrame
-        c_sequence_df = create_c_sequence(X_quantized, node_mapping)
-
-        # Save c_sequence DataFrame to a CSV file
-        c_sequence_filename = os.path.join(directory1, f'{filename[:-4]}_c_sequence.csv')
-        c_sequence_df.to_csv(c_sequence_filename, index=False)
-
-        print(f"c_sequence.csv file saved successfully for {filename}.")
-
-        # Create edgelist
-        edgelist = create_edgelist(G, node_mapping)
-
-        # Save edgelist to a file
-        edgelist_filename = os.path.join(directory1, f'{filename[:-4]}.edgelist')
-        with open(edgelist_filename, 'w') as f:
-            for edge in edgelist:
-                f.write(f"{edge[0]} {edge[1]}\n")
-
-        print(f"{filename[:-4]}.edgelist file saved successfully.")
+            print(f"{filename[:-4]}.edgelist file saved successfully in {country_output_directory}.")
