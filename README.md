@@ -1,7 +1,7 @@
 
 # Introduction
 
-
+This repository contains code for the research case study conducted on building model to generate synthetic street network. The research for the project is inspired by the [paper](https://arxiv.org/abs/2211.04984) Graph representation learning for street networks 
 
 # Data gathering
 
