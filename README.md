@@ -3,6 +3,20 @@
 
 This repository contains code for the research case study conducted on building model to generate synthetic street network. The research for the project is inspired by the [paper](https://arxiv.org/abs/2211.04984) Graph representation learning for street networks 
 
+### Note on docker files
+
+* The docker files are provided for the following components:
+    * Data gathering
+    * 0node
+    * node2vec
+* The transformer model requires a GPU to train, so a docker file is not provided for it. Since, this disrupts the flow of execution to put all the details in one place, the docker files were seperated for the other components which also enables the user to run the components individually if necessary for testing since the data is already provided in the repository.
+
+### Note on Time taken for execution
+
+* The data gathering process involves extracting data from around 40000 cities around the world. This process takes anywhere from few hours to few days depending on the speed of the internet. 
+* The transformer model was trained on a NVIDIA A100 GPU with 40GB memory rented from a cloud service for 40 hours.
+* The node2vec model involves training the model on the data too which again might take a while depending on if it's run on a GPU or CPU.
+
 # Data gathering
 
 ## Automate with docker:
