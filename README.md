@@ -17,8 +17,18 @@ docker run -v $(pwd):/app rcs_data_extract
 ** python data_1sqkm_from_centre: Extracts data from the centroid of the city with a radius of 1sqkm
 
 # 0node 
-** 0node.py: processes the street data, creates the graph and the master cseq file
 
+Automate with docker:
+
+docker build -t rcs_0node -f Dockerfile.0node .
+docker run -v $(pwd):/app rcs_0node
+
+(or)
+
+# Flow to run
+** python 0node.py: processes the street data, creates the graph and the master cseq file
+** python split_cseq_data.py: splits the cseq data for training and testing 
+** python seperate_testdata.py: seperates test data files correspoinding to the cseq test files from original street network data 
 
 
 # training transformer
@@ -43,6 +53,12 @@ docker run -v $(pwd):/app rcs_data_extract
 
 The node2vec part in this repository implements node2vec by Grover, Aditya and Leskovec, Jure. For details of the model, refer to their original [implementation](https://github.com/aditya-grover/node2vec/tree/master) and [their paper](https://arxiv.org/pdf/1607.00653).
 
+Automate with docker:
+
+docker build -t rcs_node2vec -f Dockerfile.node2vec .
+docker run -v $(pwd):/app rcs_node2vec
+
+(or)
 
 # Flow to run
 
