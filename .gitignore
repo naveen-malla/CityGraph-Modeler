@@ -37,7 +37,6 @@
 # Ignore Python cache
 *.bin
 *.pkl
-*.pt
 *.pyc
 
 
