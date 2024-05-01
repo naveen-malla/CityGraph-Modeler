@@ -1,0 +1,28 @@
+# Use a lighter base image
+FROM python:3.9
+
+# Set the working directory in the container
+WORKDIR /app
+
+# Install GDAL dependencies
+RUN apt-get update && apt-get install -y \
+    libgdal-dev \
+    && rm -rf /var/lib/apt/lists/*
+
+# Set environment variables for GDAL
+ENV CPLUS_INCLUDE_PATH=/usr/include/gdal
+ENV C_INCLUDE_PATH=/usr/include/gdal
+
+# Install Python dependencies
+COPY requirements.txt /app/
+RUN pip install --no-cache-dir -r requirements.txt
+
+# Copy necessary files
+COPY node2vec/Preprocessing/edgelist.py node2vec/Preprocessing/realadjmatrix.py node2vec/main/main.py node2vec/main/admatrix.py Cseq_Predicted_subset Test_dataset_synadjmatrix_subset merge_files_for_results.py  /app/
+
+# Use a non-root user
+RUN useradd -m myuser
+USER myuser
+
+# Command to run the Python script
+CMD python node2vec/Preprocessing/edgelist.py && python node2vec/Preprocessing/realadjmatrix.py && python node2vec/main/main.py && python node2vec/main/admatrix.py && python merge_files_for_results.py && python 
