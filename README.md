@@ -86,7 +86,7 @@ The node2vec part in this repository implements node2vec by Grover, Aditya and L
 * node2vec/plotncalculation:
 
 - **plotmap.py**: Uses a file from Cseq_predicted and a file from Reconstructed_admatrix for one city to create a synthetic street network.
-- **calculation.py**: Executes calculation of features from given input. Required input consists of files in two folders: `Cseq_predicted_subset` (Cseq_predicted) and `syn_admatrix_subset` (Test_dataset_synadjmatrix) to calculate for synthetic map OR `Cseq_test_subset` (Cseq_Data_Test) and `real_admatrix_subset` (Test_Dataset_realadjmatrix) for calculating features from a real map. All input files are in .csv format. Users can choose one of the following options for metric calculation:
+- **calculation.py**: Executes calculation of features from given input. Required input consists of files in two folders: `Cseq_predicted_subset` (Cseq_predicted) and `syn_admatrix_subset` (Test_dataset_synadjmatrix) to calculate for synthetic map OR `Cseq_test_subset` (Cseq_Data_Test) and `real_admatrix_subset` (Test_Dataset_realadjmatrix) for calculating features from a real map. All input files are in .csv format. Users can choose one of the following options for feature calculation:
   1. Average street length
   2. Average edges per node
   3. Average circuity
