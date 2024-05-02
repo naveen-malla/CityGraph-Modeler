@@ -81,7 +81,7 @@ The node2vec part in this repository implements node2vec by Grover, Aditya and L
 - Create .edgelist with node2vec/Preprocessing/edgelist.py as input for node2vec model
 - Create real adjacency matrix node2vec/Preprocessing/realadjmatrix.py for creating real map after
 * node2vec/main:
-- Take .edgelist created above as input, run it in node2vec/main/main.py to create node embedidng .emb
+- Take .edgelist created above as input, run it in node2vec/main/main.py to create node embedding .emb
 - Create reconstructed adjacency matrix with node2vec/main/admatrix.py from input .emb 
 * node2vec/plotncalculation:
 
