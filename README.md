@@ -55,7 +55,7 @@ This repository contains code for the research case study conducted on building 
 ## Flow to run
 * install the dependecies: pip install torch numpy transformers datasets tiktoken wandb tqdm
 * prepare the data: python nanoGPT/data/osm/prepare_data.py
-* the configuration of the model is provided in nanoGPT/config/train_osm.py
+* the configuration of the model is provided in nanoGPT/config/train_osm.py which can be edited as per requirement
 * train the model: python nanoGPT/train.py --config nanoGPT/config/train_osm.py
 * the weights are stored in nanoGPT/out-osm-1024-20000
 * get the cseq predictions: python get_cseq_predictions.py
